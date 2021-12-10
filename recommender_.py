@@ -25,12 +25,10 @@ def get_scores_recipes(df_food, df_recipe):
         score_ = df_food.score.iloc[item]
         if df_recipe.loc[df_recipe.ingredients_clean_processed.str.contains(food_),:].shape[0] >0:
             #print(ingred.loc[ingred.ingredients_cl.str.contains(food_),:].index)
-            df_recipe.loc[df_recipe.ingredients_clean_processed.str.contains(food_),'score'] = score_ +
-            df_recipe.loc[df_recipe.ingredients_clean_processed.str.contains(food_),'score']            
+            df_recipe.loc[df_recipe.ingredients_clean_processed.str.contains(food_),'score'] = score_+df_recipe.loc[df_recipe.ingredients_clean_processed.str.contains(food_),'score']            
             #print(food_,score_)
         else:
-            df_recipe.loc[df_recipe.ingredients_clean_processed.str.contains(food_),'score'] =
-            df_recipe.loc[df_recipe.ingredients_clean_processed.str.contains(food_),'score']
+            df_recipe.loc[df_recipe.ingredients_clean_processed.str.contains(food_),'score'] = df_recipe.loc[df_recipe.ingredients_clean_processed.str.contains(food_),'score']
             #print('No food')
     return df_recipe
 
