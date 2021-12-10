@@ -65,7 +65,7 @@ blabla blaa
 #Loading the data
 portion_scores_df = pd.read_csv('portion_scores.csv', index_col=0)
 vegan_recipes = pd.read_csv('vegan_recipes.csv',index_col=0)
-
+portion_scores_df['score'] = 0
 ##Food 
 nutrient_focus = ['zinc', 'calcium', 'potassium'] #fixed set of ingredients
 portion_scores_df.loc[:,'score'] = round(portion_scores_df.loc[:,'score']/(portion_scores_df.score.max())*100,2)
