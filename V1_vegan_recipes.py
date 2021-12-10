@@ -123,4 +123,4 @@ nutrient_focus = st.multiselect(' ',options=all_nutrients, default=all_nutrients
 sum_frame_by_column(portion_scores_df,'score',nutrient_focus).sort_values('score',ascending=False)
 
 
-portion_scores_df[['name','score']]
+portion_scores_df[['Name','score']]
