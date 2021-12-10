@@ -2,10 +2,11 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-
+pd.options.mode.chained_assignment = None
 # text processing libraries
 import re
 import string
+from PIL import Image
 
 # sklearn 
 from sklearn.feature_extraction.text import CountVectorizer,TfidfVectorizer
