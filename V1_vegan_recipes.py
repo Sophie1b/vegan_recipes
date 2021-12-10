@@ -118,7 +118,7 @@ color_map1 = {'Fat':"#3265B2",
 all_nutrients = portion_scores_df.columns.tolist()
 st.subheader('**Select the nutrients you want to focus on**')
 nutrient_focus = st.multiselect(' ',options=all_nutrients, default=all_nutrients)
-nutrient_focus  = nutrient_focus.split()
+#nutrient_focus  = nutrient_focus.split()
 
 sum_frame_by_column(portion_scores_df,'score',nutrient_focus).sort_values('score',ascending=False)
 
