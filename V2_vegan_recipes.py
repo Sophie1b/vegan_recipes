@@ -100,7 +100,7 @@ recommender_df = recommender_recipes[recommender_recipes['score']>5]
 recommender_df = recommender_df.sort_values('score',ascending=False)
 
 """ Because you want to focus on the selected nutrients, I recommend you cook:"""
-recommender_df.iloc[:10,:]
+recommender_df.iloc[:10,0]
 
 
 
@@ -126,7 +126,7 @@ recommender_system_type = recommender_df[recommender_df['type']== food_type]
 top_50 = recommender_system_type.sort_values('score',ascending=False).head(50).reset_index()
 
 tfidf = TfidfVectorizer()
-sparse_matrix = tfidf.fit_transform(top_50['ingredients_clean'])
+sparse_matrix = tfidf.fit_transform(top_50['ingredients'])
 
 recommended_recipies(top_50,4,sparse_matrix,5, metric='cosine')
 
