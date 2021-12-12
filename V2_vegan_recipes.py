@@ -115,7 +115,7 @@ st.subheader('**Would you like a recipe for breakfast, a main meal, a desert or 
 
 #food_type_focus = st.multiselect(' ',options=food_type, default=None)
 food_type_focus = st.selectbox('Which food type are you interested in?',food_type)
-recommender_system_type = recommender_df[recommender_df['type']== food_type].reset_index()
+recommender_system_type = recommender_df[recommender_df['type']== food_type_focus].reset_index()
 
 recommender_system_type.iloc[:10,:]
 
