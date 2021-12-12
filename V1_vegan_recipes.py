@@ -97,5 +97,6 @@ recommender_recipes.loc[:,'score'] = round(recommender_recipes.loc[:,'score']/(r
 recommender_df = recommender_recipes[recommender_recipes['score']>5]
 
 to_print = recommender_df.sort_values('score',ascending=False).head(10)
-print(to_print)
+
+to_print
 
