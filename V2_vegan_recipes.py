@@ -17,7 +17,7 @@ from sklearn.neighbors import NearestNeighbors
 # PAGE STYLING
 ##############################################################################################
 st.set_page_config(page_title="Vegan Recipe Recommender", 
-                   page_icon=":carrot:",
+                   page_icon=":avocado:",
                    layout='wide')
                    
 st.title("Vegan Recipe Recommender system :carrot:")
