@@ -17,10 +17,10 @@ from sklearn.neighbors import NearestNeighbors
 # PAGE STYLING
 ##############################################################################################
 st.set_page_config(page_title="Vegan Recipe Recommender", 
-                   page_icon=":avocado:",
+                   page_icon=":carrot:",
                    layout='wide')
                    
-st.title("Vegan Recipe Recommender system :avocado:")
+st.title("Vegan Recipe Recommender system :carrot:")
 """
 [Vegan diet] (https://en.wikipedia.org/wiki/Veganism)
 The vegan diet often focuses on what not to eat, through this recommender system, I focus on the foods and recipes to eat in order to increase the consumption of the selected nutrients. 
