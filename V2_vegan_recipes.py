@@ -129,5 +129,7 @@ top_50 = recommender_system_type.sort_values('score',ascending=False).head(50).r
 tfidf = TfidfVectorizer()
 sparse_matrix = tfidf.fit_transform(top_50['ingredients_clean_processed'])
 
-recommended_recipies(top_50,4,sparse_matrix,5, metric='cosine')
+recipe_to_copy_nb = st.number_input("What's the number of the recipe you would like ot see more of?")
+
+recommended_recipies(top_50,recipe_to_copy_nb,sparse_matrix,5, metric='cosine')
 
