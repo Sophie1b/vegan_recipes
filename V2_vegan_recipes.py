@@ -117,7 +117,7 @@ food_type_focus = st.multiselect(' ',options=food_type, default=None)
 
 recommender_system_type = recommender_df[recommender_df['type']== food_type]
 
-
+recommender_system_type.iloc[:10,0]
 
 ##############################################################################################    
 # Recommender system
