@@ -126,7 +126,7 @@ recommender_system_type = recommender_df[recommender_df['type']== food_type]
 top_50 = recommender_system_type.sort_values('score',ascending=False).head(50).reset_index()
 
 tfidf = TfidfVectorizer()
-sparse_matrix = tfidf.fit_transform(top_50['ingredients_clean_processed	'])
+sparse_matrix = tfidf.fit_transform(top_50['ingredients_clean_processed'])
 
 recommended_recipies(top_50,4,sparse_matrix,5, metric='cosine')
 
