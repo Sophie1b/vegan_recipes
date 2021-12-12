@@ -82,7 +82,7 @@ recommender_recipes = pd.read_csv('recommender_recipes.csv',index_col=0)
 
 all_nutrients = recommender_recipes.iloc[:,4:].columns.tolist()
 st.subheader('**Select the nutrients you want to focus on**')
-nutrient_focus = st.multiselect(' ',options=all_nutrients, default=all_nutrients)
+nutrient_focus = st.multiselect(' ',options=all_nutrients, default=None)
 #nutrient_focus  = nutrient_focus.split()
 
 sum_frame_by_column(recommender_recipes,'score',nutrient_focus).sort_values('score',ascending=False)
