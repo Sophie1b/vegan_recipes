@@ -100,7 +100,7 @@ recommender_df = recommender_recipes[recommender_recipes['score']>5]
 recommender_df = recommender_df.sort_values('score',ascending=False)
 
 """ Because you want to focus on the selected nutrients, I recommend you cook:"""
-recommender_df.iloc[:10,2]
+recommender_df.iloc[:10,1]
 
 
 
