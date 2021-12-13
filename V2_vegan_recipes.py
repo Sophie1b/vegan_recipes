@@ -131,6 +131,6 @@ sparse_matrix = tfidf.fit_transform(top_50['ingredients_clean_processed'])
 
 recipe_to_copy_nb = st.number_input("What's the number of the recipe you would like ot see more of?")
 
-test = recommended_recipies(top_50,4,sparse_matrix,5, metric='cosine')
+test = recommended_recipies(top_50,3,sparse_matrix,5, metric='cosine')
 test
 
