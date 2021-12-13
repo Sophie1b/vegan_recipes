@@ -34,7 +34,7 @@ st.image(title_image)
 st.header("**Food nutrients**")
 """We all need nutrients to susrvive. Some are brought to us from the food we eat, some from the sun, some are transformed in our guts and bodies. In the Western world we are currently consuming too many kalories but at the same time not enough vitamins, minerals or oligoelements. There are mainly only traces of these element in the foods we eat, nevertheless they are essential for our wellbeing. 
 In this data analysis project, I would like to focus on the nutrients we should be eating more of. In a typical vegan diet, some nutrients might be lacking. B12 for instance is not part of any plant based foods and needs to be added to the diet through supplements. Other nutrients that might be low for vegan eaters can usually still be found in plant based foods. 
-Typically these can include a definciency in: calcium, iron, protein and zinc. """
+Other nutrients, that might be low for vegan eaters can include calcium, iron, protein and zinc. Nevertheless these can still be found in plant based foods."""
 
 
 ##############################################################################################
