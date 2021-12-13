@@ -141,4 +141,5 @@ sparse_matrix = tfidf.fit_transform(top_50['ingredients_clean_processed'])
 #sparse_matrix
 recipe_to_copy_nb = st.slider("What's the number of the recipe you would like ot see more of?", min_value=0, max_value=9, step=1)
 recipe_to_copy_nb
-recommend_recipes = recommended_recipes(top_50,recipe_to_copy_nb,sparse_matrix,5, metric='cosine')
+
+recommended_recipes(top_50,recipe_to_copy_nb,sparse_matrix,5, metric='cosine')
