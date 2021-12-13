@@ -138,7 +138,7 @@ with col2:
 ##############################################################################################
 st.header("**Let's try a recommender**")
 """Bored of the above recipes? try these ones instead""" 
-  st.subheader(f"Using teh slider, select the number corresponding to the recipe above for which you would like more recommendations.")
+st.subheader("Using teh slider, select the number corresponding to the recipe above for which you would like more recommendations.")
 top_50 = recommender_system_type.sort_values('score',ascending=False).head(50).reset_index()
 #top_50
 tfidf = TfidfVectorizer()
