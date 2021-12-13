@@ -125,11 +125,11 @@ recommender_system_type.iloc[:10,1]
 st.header("**Let's try a recommender**")
 """Bored of the above recipes? try these ones instead""" 
 top_50 = recommender_system_type.sort_values('score',ascending=False).head(50).reset_index()
-
+top_50
 tfidf = TfidfVectorizer()
 sparse_matrix = tfidf.fit_transform(top_50['ingredients_clean_processed'])
-
-recipe_to_copy_nb = st.number_input("What's the number of the recipe you would like ot see more of?")
+sparse_matrix
+#recipe_to_copy_nb = st.number_input("What's the number of the recipe you would like ot see more of?")
 
 test = recommended_recipies(top_50,3,sparse_matrix,5, metric='cosine')
 test
