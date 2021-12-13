@@ -46,7 +46,7 @@ def sum_frame_by_column(frame, new_col_name, list_of_cols_to_sum):
 
 
 
-def recommended_recipies(df,recipe_id, sparse_matrix, k,metric='cosine'):
+def recommended_recipes(df,recipe_id, sparse_matrix, k,metric='cosine'):
 
     name_recipe = df.loc[recipe_id, 'name']
     recipe_to_assess = sparse_matrix[recipe_id]
@@ -131,6 +131,6 @@ sparse_matrix = tfidf.fit_transform(top_50['ingredients_clean_processed'])
 sparse_matrix
 #recipe_to_copy_nb = st.number_input("What's the number of the recipe you would like ot see more of?")
 
-test = recommended_recipies(top_50,3,sparse_matrix,5, metric='cosine')
+test = recommended_recipes(top_50,3,sparse_matrix,5, metric='cosine')
 test
 
