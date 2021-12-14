@@ -121,8 +121,8 @@ df = df_forplot[df_forplot['Name']=='chia seed']
 df
 df = df.T
 df.drop('Name',inplace=True)
-df = df.reset_index()
-df.rename(columns={'index':'Name',df.columns[1]:'Value'},inplace=True)
+#df = df.reset_index()
+#df.rename(columns={'index':'Name',df.columns[1]:'Value'},inplace=True)
 df
 
 
