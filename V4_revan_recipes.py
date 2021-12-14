@@ -125,7 +125,9 @@ df = df.reset_index()
 df.rename(columns={'index':'Name',df.columns[1]:'Value'},inplace=True)
 df
 fig = px.bar(df, x='Name', y='Value')
-fig.show()
+st.fig
+
+#fig.show()
 name_1
 # fig = px.bar_polar(df, r='Value', theta=np.arange(0,360,17))
                    #, color='Name')
