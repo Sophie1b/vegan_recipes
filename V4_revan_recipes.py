@@ -91,11 +91,11 @@ df_forplot
 all_nutrients = recommender_recipes.iloc[:,6:].columns.tolist()
 st.subheader('**Select the nutrients you want to focus on**')
 nutrient_focus = st.multiselect(' ',options=all_nutrients, default=None)
-#nutrient_focus  = nutrient_focus.split()
+
 
 sum_frame_by_column(recommender_recipes,'score',nutrient_focus).sort_values('score',ascending=False)
 
-#recommender_recipes.loc[:,'score'] = round(recommender_recipes.loc[:,'score']/(recommender_recipes.score.max())*100,2)
+recommender_recipes.loc[:,'score'] = round(recommender_recipes.loc[:,'score']/(recommender_recipes.score.max())*100,2)
 
 
 ##############################################################################################    
@@ -112,7 +112,7 @@ name_1 = df_top3.iloc[2,22]
 df_top3
 name_1
 
-df = df_forplot[df_forplot['Name']==name_1]
+df = df_forplot[df_forplot['Name']=='chia seed']
 df = df.T
 df.drop('Name',inplace=True)
 df = df.reset_index()
