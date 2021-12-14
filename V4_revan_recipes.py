@@ -124,9 +124,10 @@ df.drop('Name',inplace=True)
 df = df.reset_index()
 df.rename(columns={'index':'Name',df.columns[1]:'Value'},inplace=True)
 df
-fig = px.bar_polar(df, r='Value', theta=np.arange(0,360,17))
+fig = px.bar(df, x='Name', y='Value)
 fig.show()
 name_1
+# fig = px.bar_polar(df, r='Value', theta=np.arange(0,360,17))
                    #, color='Name')
      #              template="simple_white",width=1000,height=1000,
       #             color_discrete_sequence= color_list,hover_data={"Value":True, "Name":True})
