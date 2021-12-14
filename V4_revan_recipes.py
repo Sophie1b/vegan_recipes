@@ -123,7 +123,7 @@ df = df.T
 df.drop('Name',inplace=True)
 #df = df.reset_index()
 #df.rename(columns={'index':'Name',df.columns[1]:'Value'},inplace=True)
-df.rename(columns={df.columns[1]:'Name'},inplace=True)
+df.rename(columns={df.columns[0]:'Name'},inplace=True)
 df
 
 
