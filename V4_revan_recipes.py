@@ -118,15 +118,19 @@ df_top3
 name_1
 
 df = df_forplot[df_forplot['Name']=='chia seed']
+df
 df = df.T
+df
 df.drop('Name',inplace=True)
 df = df.reset_index()
+df
 df.rename(columns={'index':'Name',df.columns[1]:'Value'},inplace=True)
+df
 fig = px.bar_polar(df, r='Value', theta=np.arange(0,360,17),
                    color='Name', template="simple_white",width=1000,height=1000,
                    color_discrete_sequence= color_list,hover_data={"Value":True, "Name":True})
 
-fig.update_polars(angularaxis = dict(visible=False),radialaxis=dict(visible=False))
+#fig.update_polars(angularaxis = dict(visible=False),radialaxis=dict(visible=False))
 fig.show()
 name_1
 
