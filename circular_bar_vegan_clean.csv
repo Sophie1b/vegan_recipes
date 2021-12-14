@@ -1,0 +1,350 @@
+Column1,fat,carbohydrates,fibres,protein,vitamin_A,vitamin_B1,vitamin_B2,vitamin_B6,vitamin_B12,vitamin_B3,vitamin_B9,vitamin_B5,vitamin_C,vitamin_D,vitamin_E,potassium,sodium,calcium,magnesium,iron,zinc,selenium,Name,Category,Food_category,Vegan_cat,count,portion,vegan_score,vegan_score_2
+1,0,14.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,agave syrup,Sweets/Sugar and sweeteners,Sweets,vegan,3,50,0,0
+2,174,3,35,51,0,15,85,9,0,16,19,8,0,0,226,18,0,27,77,22,41,4,almond,"Nuts, seeds and oleaginous fruit",Nuts and seeds,vegan,17,100,35.43,7.48
+4,184,3,35,51,0,9,71,9,0,31,9,4,0,0,216,17,22,24,87,22,39,3,almond roasted salted,"Savoury snacks/Salted nuts, seeds and kernels",Nuts and seeds,vegan,17,100,34.17,7.21
+5,7,7,12,10,0,2,5,8,0,3,5,5,1,0,3,4,0,6,27,20,15,0,amaranth seed cooked,"Cereal products, pulses and potatoes/Other cereal products",Cereal,vegan,11,100,12.81,2.7
+11,0,4,0,0,0,2,2,3,0,1,0,1,8,0,4,3,0,1,2,1,1,0,apple juice,Fruit/Fruit juices;Non-alcoholic beverages/Fruit and vegetable juices,Fruit,vegan,1,100,0.75,0.16
+14,1,5,7,1,0,2,1,3,0,1,4,2,7,0,4,3,0,0,1,1,1,0,apple,Fruit/Fresh fruit,Fruit,vegan,2,100,0.75,0.16
+15,7,25,31,3,0,5,4,9,0,4,7,5,4,0,15,13,1,2,10,13,8,0,apple peeled dried,Fruit/Dried fruit,Fruit,vegan,12,100,6.53,1.38
+21,2,24,28,6,30,1,5,12,0,26,3,11,2,0,46,34,1,8,16,9,5,0,apricot dried,Fruit/Dried fruit,Fruit,vegan,15,100,7.04,3.08
+22,0,4,7,2,27,3,4,4,0,3,2,3,5,0,6,8,0,2,3,3,1,0,apricot,Fruit/Fresh fruit,Fruit,vegan,5,100,2.01,1.86
+26,2,1,11,4,0,2,3,2,0,3,18,2,13,2,9,4,21,2,6,3,4,33,artichoke heart canned drained,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,7,100,3.27,0.8
+27,1,1,6,4,2,13,12,5,0,9,25,3,16,0,14,7,0,2,6,6,5,0,asparagus,Vegetables/Fresh vegetables,Vegetables,vegan,10,100,4.27,1.01
+28,1,1,5,4,2,10,11,4,0,7,15,3,12,0,14,6,0,2,5,5,5,0,asparagus steamed,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,7,100,4.02,0.95
+29,47,0,10,4,1,6,15,14,0,17,10,14,7,0,15,13,0,2,11,7,8,0,avocado,"Nuts, seeds and oleaginous fruit;Vegetables/Fresh vegetables",Fruit,vegan,16,100,5.28,1.17
+32,3,20,10,18,0,12,3,6,0,5,3,4,0,0,2,4,44,1,7,6,9,5,baguette,"Bread, flakes and breakfast cereals/Bread and bread products",Cereal,vegan,11,100,8.54,1.8
+33,0.1,0.5,0.1,0.05,0,0.1,0.05,6.1,0,0.05,0.1,0.05,0.05,0.1,0,0.2,0.1,0.1,0.2,0.35,0.05,1.65,balsamic vinegar,"Various/Salt, spices and flavours",spices and flavours,vegan,6,5,0.14,0.03
+35,3,24,18,6,1,10,16,58,0,17,11,9,4,0,5,29,1,2,29,9,8,0,banana dried,Fruit/Dried fruit,Fruit,vegan,15,100,6.28,1.38
+37,1,8,7,2,1,5,3,20,0,5,7,4,14,0,2,10,0,1,10,3,2,0,banana,Fruit/Fresh fruit,Fruit,vegan,7,100,2.01,0.48
+38,5,26,34,17,0,20,7,21,0,26,6,8,0,0,2,4,0,2,21,13,16,0,barley flakes,"Bread, flakes and breakfast cereals/Flakes, bran and germs",Cereal,vegan,14,100,12.06,2.55
+39,7,10,6,7,0,5,2,4,0,7,2,1,0,0,4,1,23,1,7,7,9,0,barley risotto cooked,"Cereal products, pulses and potatoes/Other cereal products",Cereal,vegan,11,100,6.03,1.27
+40,3,2,10,6,58,8,28,13,0,9,17,3,27,0,8,8,1,25,4,37,9,0,basil,Vegetables/Herbs,Vegetables,vegan,15,100,19.35,7.16
+43,1,1,10,4,4,8,9,10,0,6,23,15,17,0,2,6,0,6,9,7,4,0,bean green,Vegetables/Fresh vegetables,Vegetables,vegan,12,100,5.28,1.33
+76,0,3,8,3,0,2,4,3,0,2,28,2,6,0,0,10,4,2,7,6,5,0,beetroot,Vegetables/Fresh vegetables,Vegetables,vegan,6,100,4.02,0.85
+77,0,4,10,4,0,2,5,3,0,2,21,3,6,0,0,11,4,2,7,7,5,0,beetroot steamed,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,6,100,4.52,0.95
+78,1,1,7,2,3,2,1,20,0,1,10,2,145,0,7,4,0,1,2,2,2,0,bell pepper green,Vegetables/Fresh vegetables,Vegetables,vegan,5,100,1.76,0.53
+80,1,2,7,2,12,3,3,19,0,8,9,3,158,0,6,4,0,1,4,3,4,0,bell pepper red,Vegetables/Fresh vegetables,Vegetables,vegan,8,100,2.51,1.17
+86,2,2,8,2,0,1,2,2,0,3,5,2,23,0,3,2,0,2,3,3,1,0,berries cooked,Fruit/Cooked fruit (incl. cans),Fruit,vegan,2,100,2.01,0.42
+87,2,3,9,2,0,2,3,3,0,3,10,3,55,0,3,4,0,2,4,3,1,0,berries,Fruit/Fresh fruit,Fruit,vegan,3,100,2.01,0.42
+99,1,2,20,2,1,2,5,3,0,4,8,3,14,0,33,5,0,3,7,7,1,0,blackberry,Fruit/Fresh fruit,Fruit,vegan,6,100,3.27,0.74
+103,2,5,10,1,0,3,3,4,0,3,2,2,21,0,16,2,0,1,1,3,1,0,blueberry,Fruit/Fresh fruit,Fruit,vegan,3,100,1.51,0.32
+107,0.33,0,0,0.33,0,3.67,0.33,0,0,0.33,0,0,0,0,0,0,8,0,0.33,0.33,0,0,bouillon vegetable prepared,Prepared dishes/Stews and soups,Sauces,vegan,2,33.33,0.17,0.03
+110,222,2,25,34,0,62,4,7,0,2,7,3,1,0,47,16,0,16,113,16,54,383,brazil nut,"Nuts, seeds and oleaginous fruit",Nuts and seeds,vegan,15,100,30.15,6.36
+111,15,18,12,18,5,17,9,9,1,10,7,6,0,0,3,4,41,3,12,10,15,5,bread,"Bread, flakes and breakfast cereals/Bread and bread products",Cereal,vegan,17,100,11.56,2.7
+118,60,12,19,18,6,23,9,13,1,12,14,11,0,0,10,6,33,3,22,14,24,5,bread with walnuts,"Bread, flakes and breakfast cereals/Bread and bread products",Cereal,vegan,20,100,14.82,3.45
+123,1,1,10,6,7,9,12,15,0,8,19,14,114,0,8,9,1,9,8,9,6,0,broccoli,Vegetables/Fresh vegetables,Vegetables,vegan,17,100,7.54,1.96
+124,1,1,9,5,6,7,10,13,0,6,11,11,82,0,8,8,1,8,7,7,5,0,broccoli steamed,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,15,100,6.28,1.64
+125,4,18,14,19,0,23,6,6,0,9,7,6,0,0,2,4,42,2,12,11,16,6,brown bread,"Bread, flakes and breakfast cereals/Bread and bread products",Cereal,vegan,16,100,12.06,2.55
+128,2,1,13,7,2,11,10,16,0,5,12,9,120,0,7,8,0,3,6,5,6,0,brussel sprouts steamed,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,12,100,5.28,1.22
+129,2,1,14,8,2,14,12,21,0,6,21,11,167,0,8,10,1,3,7,7,6,0,brussels sprouts,Vegetables/Fresh vegetables,Vegetables,vegan,14,100,6.03,1.38
+130,7,27,14,23,0,55,14,24,0,40,22,26,0,0,3,10,1,2,52,17,29,5,buckwheat flour,"Cereal products, pulses and potatoes/Flour and starch",Cereal,vegan,16,100,17.84,3.76
+143,1,1,9,4,1,6,5,11,0,5,11,6,55,0,8,6,1,5,5,3,4,0,cabbage vegetables boiled,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,8,100,4.02,0.9
+144,1,1,9,4,1,7,6,12,0,6,18,7,78,0,8,7,1,5,6,5,4,0,cabbage vegetables,Vegetables/Fresh vegetables,Vegetables,vegan,11,100,4.52,1.01
+151,0,2,0,0,0,0,1,1,0,0,0,1,0,0,0,1,0,1,3,3,1,0,calimocho,Alcoholic beverages/Other alcoholic beverages;Non-alcoholic beverages/Soft drinks,Alcoholic beverages,vegan,0,100,1.26,0.27
+155,0.5,14,3.5,0.5,1,1,1.5,2,0,0.5,0.5,1,2,0,0,0.5,0,2,1,1,0.5,0,candied lemon peel,Sweets/Other sweets,Sweets,vegan,4,50,1.01,0.27
+156,0.5,15,4,0.5,1,2,1.5,2,0,1,0.5,1,2,0,0,1,0,2.5,1,1,0.5,0,candied orange peel,Sweets/Other sweets,Sweets,vegan,4,50,1.13,0.29
+157,6,16,0,0.5,3,1.5,2,0,0,0,0,0.5,0,0,0.5,1.5,4,1,1,2.5,0.5,0,candy toffee,"Sweets/Candies, fruits gums and chewing gum",Sweets,vegan,7,50,1.13,0.4
+163,0,3,3,1,71,6,5,14,0,3,1,4,7,0,5,7,2,2,4,3,1,0,carrot juice,Vegetables/Vegetable juices;Non-alcoholic beverages/Fruit and vegetable juices,Fruit,vegan,6,100,1.76,4.14
+164,1,3,9,2,99,4,5,6,0,5,10,6,4,0,4,4,2,3,3,1,1,0,carrot,Vegetables/Fresh vegetables,Vegetables,vegan,6,100,1.76,5.62
+165,1,3,9,2,99,4,5,6,0,4,7,5,4,0,5,4,2,3,3,1,1,0,carrot steamed,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,5,100,1.76,5.62
+166,151,9,12,43,0,59,5,30,0,9,15,20,1,0,7,16,1,4,87,39,50,25,cashew nut,"Nuts, seeds and oleaginous fruit",Nuts and seeds,vegan,17,100,34.17,7.21
+167,1,1,8,5,0,6,7,11,0,5,28,12,63,0,2,8,1,2,5,3,4,0,cauliflower,Vegetables/Fresh vegetables,Vegetables,vegan,8,100,3.52,0.74
+168,1,1,8,5,0,5,7,9,0,4,17,11,50,0,2,7,1,2,5,3,4,0,cauliflower steamed,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,7,100,3.52,0.74
+171,1,1,17,3,0,6,5,13,0,7,13,9,8,0,3,8,7,4,4,5,5,0,celeriac,Vegetables/Fresh vegetables,Vegetables,vegan,9,100,4.27,0.9
+172,1,1,17,3,0,5,5,12,0,6,8,8,7,0,3,7,6,4,4,4,5,0,celeriac steamed,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,8,100,4.02,0.85
+173,0,1,7,2,2,3,4,5,0,3,6,5,11,0,2,8,7,5,5,3,1,0,celery,Vegetables/Fresh vegetables,Vegetables,vegan,5,100,2.76,0.69
+174,0,1,7,2,2,2,4,4,0,3,4,4,9,0,2,7,7,5,4,3,1,0,celery steamed,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,4,100,2.76,0.69
+177,11,26,32,22,0,32,9,19,0,23,13,12,0,0,5,6,0,3,30,24,28,0,cereal flakes,"Bread, flakes and breakfast cereals/Flakes, bran and germs",Cereal,vegan,16,100,19.35,4.08
+179,2,0,16,5,7,2,21,3,0,54,8,42,6,11,1,13,0,1,5,43,8,0,chanterelle,Vegetables/Mushrooms,Vegetables,vegan,12,100,14.32,3.98
+180,2,0,19,5,8,2,21,3,0,53,6,42,6,13,1,12,0,1,5,45,8,0,chanterelle stewed,Vegetables/Mushrooms,Vegetables,vegan,12,100,14.82,4.24
+188,2,6,6,3,1,3,4,4,0,2,5,3,5,0,1,6,0,2,4,3,1,0,cherry,Fruit/Fresh fruit,Fruit,vegan,3,100,2.26,0.53
+190,6,16,28,6,0,21,7,14,0,9,18,7,48,0,4,10,0,2,10,14,12,3,chestnut,"Nuts, seeds and oleaginous fruit",Nuts and seeds,vegan,17,100,8.54,1.8
+191,114,1,136,43,0,47,18,10,0,34,24,6,2,0,4,16,1,55,103,43,64,16,chia seed,"Nuts, seeds and oleaginous fruit",Nuts and seeds,vegan,17,100,51.51,10.87
+202,7,7,21,15,1,14,4,6,0,4,23,4,1,0,6,8,0,4,15,13,11,0,chickpea cooked,"Cereal products, pulses and potatoes/Pulses",Cereal,vegan,14,100,10.8,2.33
+204,1,0,8,2,0,5,5,2,0,2,17,2,2,0,1,5,0,2,3,1,2,0,chicory,Vegetables/Fresh vegetables,Vegetables,vegan,2,100,1.76,0.37
+205,1,0,8,2,0,4,5,2,0,2,11,2,1,0,1,4,0,2,3,1,2,0,chicory steamed,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,2,100,1.76,0.37
+207,1,0,6,2,1,4,4,11,0,3,15,3,24,0,2,4,1,4,4,4,4,0,chinese cabbage,Vegetables/Fresh vegetables,Vegetables,vegan,4,100,3.52,0.8
+208,1,0,6,2,1,3,3,9,0,3,9,2,13,0,2,3,1,4,3,3,4,0,chinese cabbage stewed,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,4,100,3.27,0.74
+209,2,1,8,6,31,8,10,9,0,6,43,5,63,0,13,7,0,9,13,10,6,0,chives,Vegetables/Herbs,Vegetables,vegan,16,100,7.79,3.29
+212,13,14.5,17.5,5.5,0,2,6,2,0,3.5,2,3,0,0,1,8,0,2,21,14,11,0,chocolate powder,Sweets/Chocolate and cocoa products;Non-alcoholic beverages/Cocoa beverages,Sweets,vegan,13,50,8.17,1.72
+215,53,10.5,11.5,5.5,0,4,7,2,0,2.5,1,1.5,0,0,0,10.5,0.5,2.5,19.5,22.5,14,0,chocolate dark,Sweets/Chocolate and cocoa products,Sweets,vegan,12,50,11.18,2.36
+222,0.55,1.1,4.05,0.4,0.1,0.4,0.65,0,0,0.55,0,0,0,0,0,0.6,0.1,6.15,0.9,12.65,1.25,0.25,cinnamon,"Various/Salt, spices and flavours",spices and flavours,vegan,14,5,5.14,1.09
+224,1,3,5,2,2,9,3,4,0,3,6,3,47,0,3,4,0,3,4,2,1,0,citrus fruits,Fruit/Fresh fruit,Fruit,vegan,3,100,2.01,0.53
+227,41,2,54.5,22.5,0,6.5,18,5,0,11,6.5,9,0,0,3,24,0.5,5.5,66,43.5,35.5,0,cocoa powder,Sweets/Chocolate and cocoa products;Non-alcoholic beverages/Cocoa beverages,Sweets,vegan,17,50,26.88,5.67
+228,122,2,30,9,0,6,1,4,0,3,10,3,2,0,6,10,2,2,13,15,10,7,coconut,"Nuts, seeds and oleaginous fruit",Nuts and seeds,vegan,13,100,9.05,1.91
+229,110,0,0,0.67,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21.67,0,0,0,coconut fat,Fats and oils/Fats,Oils,vegan,4,33.33,0.17,0.04
+230,71,1,0,5,0,2,0,2,0,5,5,2,1,0,6,6,1,2,15,22,8,5,coconut milk,"Nuts, seeds and oleaginous fruit",Nuts and seeds,vegan,8,100,9.3,1.96
+231,217,3,49,15,0,3,0,6,0,5,7,0,0,0,0,18,1,1,32,19,19,12,coconut dried,"Nuts, seeds and oleaginous fruit",Nuts and seeds,vegan,12,100,13.57,2.86
+236,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,1,0,0,0,coffee black no sugar added,Non-alcoholic beverages/Coffee,beverages,vegan,0,100,0.25,0.05
+237,0,17,64,22,0,1,10,2,0,183,0,7,0,0,0,110,4,17,126,29,6,0,coffee instant powder,Non-alcoholic beverages/Coffee,beverages,vegan,13,100,18.59,3.92
+242,2,6,28,15,0,8,2,5,0,7,26,1,1,0,0,10,0,4,16,13,14,0,common bean mature seed cooked,"Cereal products, pulses and potatoes/Pulses",Cereal,vegan,10,100,11.56,2.44
+243,5,16,75,42,0,34,7,18,0,28,137,6,3,0,1,38,0,13,52,42,40,0,common bean mature seed dried,"Cereal products, pulses and potatoes/Pulses",Cereal,vegan,16,100,34.42,7.26
+254,100,0,0,0,0,0,0,0,0,0,0,0,0,0,85,0,0,0,0,0,0,0,corn germ oil,Fats and oils/Oils,Oils,vegan,4,33.33,0,0
+255,1,7,4,4,0,1,1,1,0,2,0,1,0,0,1,0,15,1,2,1,1,0,corn semolina cooked,"Cereal products, pulses and potatoes/Corn",Cereal,vegan,2,100,1.76,0.37
+256,4,30,17,18,2,5,4,7,0,10,2,4,0,0,4,2,0,0,6,7,5,0,corn semolina dried,"Cereal products, pulses and potatoes/Corn",Cereal,vegan,9,100,7.54,1.7
+257,2,32,13,15,2,6,5,5,0,12,2,3,0,0,1,3,64,1,5,13,4,0,cornflakes,"Bread, flakes and breakfast cereals/Muesli mixes and breakfast cereals",Cereal,vegan,9,100,8.29,1.86
+263,2,3,10,1,0,2,2,1,0,1,1,2,13,0,8,2,0,1,2,3,2,0,cranberry,Fruit/Fresh fruit,Fruit,vegan,3,100,1.76,0.37
+272,6,24,41,24,0,41,17,29,0,28,20,19,0,0,10,10,40,3,32,27,42,7,crispbread wholemeal,"Bread, flakes and breakfast cereals/Crispbreads, rusks, crackers and wafers",Cereal,vegan,19,100,24.12,5.09
+280,0,1,3,1,1,2,2,1,0,2,2,0,5,0,1,2,47,1,4,7,4,0,cucumber pickled,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,2,100,3.27,0.74
+281,0,1,3,1,3,2,2,2,0,2,3,3,10,0,1,4,0,2,3,1,1,0,cucumber,Vegetables/Fresh vegetables,Vegetables,vegan,1,100,1.26,0.42
+288,1,4,23,3,0,2,5,6,0,2,13,7,211,0,8,9,0,6,5,9,4,0,currant black,Fruit/Fresh fruit,Fruit,vegan,9,100,5.53,1.17
+289,2,2,27,2,0,3,5,4,0,2,3,2,36,0,1,7,0,4,4,8,2,0,currant red,Fruit/Fresh fruit,Fruit,vegan,4,100,4.02,0.85
+290,2,28,24,5,0,6,5,9,0,11,7,11,1,0,2,17,0,6,19,20,4,0,date dried,Fruit/Dried fruit,Fruit,vegan,13,100,8.79,1.86
+295,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,drinking water,Non-alcoholic beverages/Drinking water,beverages,vegan,0,100,0.25,0.05
+298,1,0,20,11,0,3,34,2,0,41,8,45,3,16,1,8,0,0,4,7,19,0,edible boletus,Vegetables/Mushrooms,Vegetables,vegan,10,100,9.3,2.81
+299,2,0,24,12,0,3,34,2,0,40,6,45,2,19,2,8,0,0,4,7,20,0,edible boletus stewed,Vegetables/Mushrooms,Vegetables,vegan,10,100,9.8,3.08
+306,1,1,8,2,1,4,3,6,0,5,6,4,2,0,0,6,0,1,4,2,1,0,eggplant,Vegetables/Fresh vegetables,Vegetables,vegan,4,100,1.51,0.37
+307,1,1,8,2,1,3,3,5,0,4,4,4,2,0,0,6,0,1,4,1,1,0,eggplant steamed,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,2,100,1.26,0.32
+308,1,1,9,2,1,3,3,6,0,5,5,4,2,0,0,6,0,1,4,2,2,0,eggplant stewed,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,3,100,1.76,0.42
+309,2,3,13,5,4,7,6,18,0,13,6,3,19,0,8,8,0,4,10,11,2,0,elderberry,Fruit/Fresh fruit,Fruit,vegan,11,100,5.53,1.38
+311,1,0,4,4,5,5,11,4,0,3,36,7,14,0,8,8,3,5,3,9,5,0,endive,Vegetables/Fresh vegetables,Vegetables,vegan,7,100,5.78,1.48
+321,1,1,11,2,2,4,2,3,0,6,18,2,6,0,1,12,1,4,4,3,4,0,fennel,Vegetables/Fresh vegetables,Vegetables,vegan,5,100,3.27,0.8
+322,1,1,10,2,2,3,2,2,0,5,11,2,5,0,1,10,1,4,4,3,4,0,fennel steamed,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,3,100,3.27,0.8
+326,4,23,37,6,1,8,8,10,0,5,4,6,1,0,17,19,1,16,20,17,11,0,fig dried,Fruit/Dried fruit,Fruit,vegan,15,100,12.56,2.7
+327,1,6,10,2,1,5,4,6,0,3,2,4,5,0,4,6,0,6,6,5,2,0,fig,Fruit/Fresh fruit,Fruit,vegan,6,100,3.77,0.85
+345,100,0,0,0,1,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,0.33,0,flaxseed oil cold pressed,Fats and oils/Oils,Oils,vegan,4,33.33,0.08,0.07
+348,5,27,16,25,0,25,5,14,0,10,7,9,0,0,3,5,0,1,15,13,18,6,flour,"Cereal products, pulses and potatoes/Flour and starch",Cereal,vegan,14,100,14.32,3.02
+357,4,28,13,24,0,21,4,11,0,7,5,8,0,0,2,4,0,1,11,10,14,6,flour white and semiwhite,"Cereal products, pulses and potatoes/Flour and starch",Cereal,vegan,13,100,12.31,2.6
+361,30,13,8,7,0,28,3,49,0,7,14,10,23,0,24,15,1,1,9,4,5,0,french fries unsalted,"Cereal products, pulses and potatoes/Potatoes",Cereal,vegan,15,100,4.27,0.9
+370,4,24,31,5,9,7,8,15,0,12,11,7,7,0,19,21,1,6,18,14,8,0,fruit dried,Fruit/Dried fruit,Fruit,vegan,19,100,8.29,2.23
+371,1,5,0,1,0,4,2,2,0,2,3,1,11,0,2,4,0,1,3,1,1,0,fruit juice no sugar added,Fruit/Fruit juices;Non-alcoholic beverages/Fruit and vegetable juices,Fruit,vegan,1,100,1.01,0.21
+378,1,4,5,1,1,1,2,1,0,3,2,2,3,0,4,2,0,1,2,2,1,0,fruit salad unsweetened canned,Fruit/Cooked fruit (incl. cans),Fruit,vegan,0,100,1.26,0.32
+379,1,4,8,1,2,2,2,2,0,2,3,2,8,0,5,3,0,1,2,2,2,0,fruits cooked,Fruit/Cooked fruit (incl. cans),Fruit,vegan,2,100,1.51,0.42
+380,1,5,7,1,2,4,2,6,0,3,6,2,22,0,4,5,0,2,4,2,1,0,fruits,Fruit/Fresh fruit,Fruit,vegan,4,100,1.51,0.42
+383,2,10,10,14,0,20,9,89,0,6,1,10,32,0,0,11,1,4,7,9,8,0,garlic,Vegetables/Fresh vegetables,Vegetables,vegan,15,100,8.79,1.86
+387,0,2,11,1,1,4,3,1,0,2,6,3,42,0,3,5,0,2,3,4,2,0,gooseberry,Fruit/Fresh fruit,Fruit,vegan,3,100,2.26,0.53
+390,0,6,0,0,0,3,3,1,0,2,1,1,2,0,0,4,0,2,3,2,1,0,grape juice,Fruit/Fruit juices;Non-alcoholic beverages/Fruit and vegetable juices,Fruit,vegan,1,100,1.26,0.27
+391,100,0,0,0,0,0,0,0,0,0,0,0,0,0,54.67,0,0,0,0,0,0,0,grape seed oil,Fats and oils/Oils,Oils,vegan,4,33.33,0,0
+392,1,6,5,1,0,5,1,4,0,1,14,1,3,0,6,5,0,1,2,3,1,0,grape,Fruit/Fresh fruit,Fruit,vegan,3,100,1.51,0.32
+393,0,2,4,1,4,5,2,2,0,2,4,4,38,0,2,4,0,2,3,1,1,0,grapefruit,Fruit/Fresh fruit,Fruit,vegan,1,100,1.26,0.48
+395,2.67,0.33,0.67,1,0,0.67,1.33,0.67,0,1.67,0.33,0.33,0.67,0,0.33,0.67,20,0.67,1,1.33,3.33,0,gravy brown,Various/Sauces,Sauces,vegan,3,33.33,1.59,0.34
+397,2,3,21,10,4,11,16,24,0,9,16,9,18,0,2,16,0,14,18,12,8,0,green bean dried soaked steamed,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,14,100,11.06,2.55
+398,1,2,11,4,4,7,9,9,0,5,15,14,13,0,2,6,0,6,9,6,4,0,green bean steamed,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,11,100,5.03,1.27
+399,2,5,20,12,6,40,13,11,0,18,23,8,34,0,2,8,0,3,11,13,10,0,green pea,Vegetables/Fresh vegetables,Vegetables,vegan,15,100,9.55,2.33
+400,3,5,22,13,7,37,13,11,0,17,16,8,27,0,2,7,0,3,11,12,10,0,green pea steamed,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,15,100,9.55,2.39
+402,2,4,15,8,37,21,9,8,0,11,11,6,16,0,3,6,25,3,7,7,6,0,green peas and carrots heated,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,16,100,6.03,3.23
+404,3,5,17,10,5,12,7,4,0,8,13,2,9,0,2,3,18,3,7,11,8,0,green peas canned,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,11,100,8.04,1.96
+414,0.5,19,0,0.5,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0.5,0.5,0,0,hard caramels,"Sweets/Candies, fruits gums and chewing gum",Sweets,vegan,3,50,0.25,0.05
+419,198,4,32,33,0,46,5,36,0,11,26,27,2,0,151,18,0,16,52,24,36,1,hazelnut,"Nuts, seeds and oleaginous fruit",Nuts and seeds,vegan,16,100,27.39,5.78
+425,0,15,0,0.5,0,0,2.5,10.5,0,1,1,1,1,0,0,0.5,0,0,0.5,1.5,2.5,0,honey from flowers,Sweets/Jams and sweet sandwich spreads,Sweets,vegan,4,50,1.13,0.24
+426,0,3,3,1,21,4,2,5,0,6,9,2,41,0,1,8,1,1,5,1,1,0,honeydew melon,Fruit/Fresh fruit,Fruit,vegan,6,100,1.01,1.33
+431,15.67,1.33,5.67,5,0.33,6,1.67,3.67,0,2.67,5,1,1.67,0,5,2,10.33,5.67,8.33,4.67,5.33,0,hummus,Various/Sauces,Sauces,vegan,16,33.33,5.19,1.11
+435,1,1,6,2,1,4,3,3,0,2,12,1,5,0,5,4,0,3,2,3,2,0,iceberg lettuce,Vegetables/Fresh vegetables,Vegetables,vegan,2,100,2.51,0.58
+436,1,11.5,3.5,0.5,0.5,1,1,0,0,4,0,0,2,0,0,1,0.5,1,0.5,4.5,1,0,jam,Sweets/Jams and sweet sandwich spreads,Sweets,vegan,6,50,1.76,0.4
+439,1,2,39,5,1,8,4,4,0,8,6,5,3,0,1,6,0,3,3,3,1,0,jerusalem artichoke cooked,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,5,100,3.02,0.69
+440,1,2,40,5,1,11,5,6,0,11,12,7,7,0,1,12,0,3,5,4,1,0,jerusalem artichoke,Vegetables/Fresh vegetables,Vegetables,vegan,8,100,3.27,0.74
+442,1,6,8,1,4,3,5,3,0,2,4,3,14,0,7,4,0,2,3,3,1,0,kaki,Fruit/Fresh fruit,Fruit,vegan,4,100,1.76,0.58
+443,3,1,14,9,37,10,23,16,0,18,28,12,78,0,14,12,1,27,9,9,4,0,kale,Vegetables/Fresh vegetables,Vegetables,vegan,16,100,12.31,4.56
+444,3,1,15,9,36,10,23,15,0,18,21,11,63,0,15,13,2,29,9,9,5,0,kale stewed,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,16,100,13.07,4.67
+446,0.33,3.33,1,1.33,0.67,2,1.67,3.67,0,2.67,1,1,5.33,0,4,4,25,0.67,2,2,0.33,0,ketchup,Various/Sauces,Sauces,vegan,12,33.33,1.09,0.27
+447,2,4,8,2,1,1,3,4,0,3,12,3,82,0,4,7,0,3,5,3,5,0,kiwi fruit,Fruit/Fresh fruit,Fruit,vegan,4,100,3.27,0.74
+448,1,1,5,4,0,3,5,6,0,15,13,2,61,0,3,8,1,6,14,3,2,0,kohlrabi,Vegetables/Fresh vegetables,Vegetables,vegan,7,100,3.77,0.8
+449,1,2,5,4,0,3,5,5,0,13,9,2,51,0,4,8,1,7,14,3,2,0,kohlrabi steamed,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,6,100,4.02,0.85
+451,1,1,6,4,47,9,8,11,0,3,27,2,26,0,2,12,0,4,4,14,6,0,lambs lettuce,Vegetables/Fresh vegetables,Vegetables,vegan,11,100,7.04,3.98
+464,1,1,6,3,14,6,7,6,0,3,20,3,14,0,5,7,1,5,4,7,4,0,leafy salad,Vegetables/Fresh vegetables,Vegetables,vegan,10,100,4.77,1.75
+465,1,1,8,3,4,4,4,6,0,2,9,3,15,0,9,3,1,5,4,3,2,0,leafy vegetables boiled,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,5,100,3.27,0.9
+466,1,1,8,3,4,5,5,8,0,2,10,3,21,0,8,5,1,5,5,3,2,0,leafy vegetables steamed,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,5,100,3.27,0.9
+467,1,1,8,3,4,5,5,8,0,3,11,3,21,0,9,5,1,5,5,4,2,0,leafy vegetables stewed,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,5,100,3.52,0.95
+470,1,1,9,3,2,12,4,21,0,3,32,2,20,0,6,6,1,3,4,6,4,0,leek,Vegetables/Fresh vegetables,Vegetables,vegan,8,100,4.02,0.95
+471,1,2,10,3,2,10,4,19,0,3,22,2,17,0,7,6,1,3,3,6,4,0,leek stewed,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,8,100,4.02,0.95
+475,1,2,1,1,0,4,1,3,0,1,3,3,26,0,1,2,1,1,8,1,1,0,lemon juice,Fruit/Fruit juices;Non-alcoholic beverages/Fruit and vegetable juices,Fruit,vegan,2,100,1.01,0.21
+476,2,1,7,2,0,5,2,4,0,2,4,2,58,0,7,4,0,2,5,3,1,0,lemon,Fruit/Fresh fruit,Fruit,vegan,3,100,2.01,0.42
+477,2,8,14,22,0,18,5,6,0,5,6,3,1,0,1,7,0,2,10,13,14,0,lentil split cooked,"Cereal products, pulses and potatoes/Pulses",Cereal,vegan,12,100,12.81,2.7
+479,2,6,21,18,0,13,4,4,0,5,9,5,2,0,1,6,0,2,10,17,15,0,lentil whole cooked,"Cereal products, pulses and potatoes/Pulses",Cereal,vegan,10,100,13.07,2.76
+482,141,1,90,43,0,47,0,12,0,0,24,14,0,0,4,17,3,24,103,42,54,0,linseed,"Nuts, seeds and oleaginous fruit",Nuts and seeds,vegan,14,100,40.95,8.64
+494,0,35,2,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3,8,0,maize starch,"Cereal products, pulses and potatoes/Flour and starch;Various/Gelling and binding agents",Cereal,vegan,4,100,3.02,0.74
+497,1,4,5,1,2,10,3,4,0,3,6,3,39,0,5,4,0,3,4,3,1,0,mandarin,Fruit/Fresh fruit,Fruit,vegan,3,100,2.01,0.53
+498,7,24,28,6,36,8,11,19,0,16,47,9,39,0,37,21,2,6,28,13,8,3,mango dried,Fruit/Dried fruit,Fruit,vegan,21,100,8.29,3.66
+499,1,5,8,1,12,3,4,5,0,3,12,3,42,0,15,4,0,2,3,8,1,0,mango,Fruit/Fresh fruit,Fruit,vegan,7,100,3.02,1.27
+500,1,12,9,2,0,5,3,11,0,4,5,6,22,0,0,6,0,3,19,5,4,1,manioc tuber cooked,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,9,100,3.52,0.74
+501,1,13,10,2,0,6,3,14,0,5,8,8,32,0,0,7,0,3,21,5,4,1,manioc tuber,Vegetables/Fresh vegetables,Vegetables,vegan,11,100,3.52,0.74
+502,0.5,17.5,0,0,0,1,44,0,0,1,0,0.5,0,0,0,3.5,0.5,5,5,0.5,16,0.5,maple syrup,Sweets/Sugar and sweeteners,Sweets,vegan,8,50,5.4,1.14
+504,89,0,0,0.33,39.67,0.33,1,0,0.67,0.67,0.33,0.33,0,8.33,55.67,0.33,1.33,0.33,0.33,0.33,0,0,margarine,Fats and oils/Fats,Oils,vegan,6,33.33,0.25,2.6
+505,29.5,13.5,8,8,1,3.5,9,2,0,5.5,5,1.5,0,0,35.5,3.5,0,4,11.5,5,5.5,0,marzipan,Sweets/Other sweets,Sweets,vegan,16,50,5.65,1.25
+531,10,10,5,7,0,6,2,5,0,4,2,2,0,0,5,1,23,1,14,15,12,0,millet risotto cooked,"Cereal products, pulses and potatoes/Other cereal products",Cereal,vegan,10,100,8.79,1.86
+533,13,28,13,21,0,33,10,29,0,15,7,12,0,0,1,4,0,1,39,46,36,0,millet wholemeal flakes,"Bread, flakes and breakfast cereals/Flakes, bran and germs",Cereal,vegan,15,100,26.13,5.51
+536,6,3,1,4,10,2,2,3,0,7,2,2,1,0,0,3,26,1,2,2,0,0,minestrone,Prepared dishes/Stews and soups,Vegetables,vegan,5,100,1.76,0.9
+538,1,4,7,2,2,4,4,3,0,4,2,3,3,0,5,4,0,1,5,3,1,0,mirabelle plum stewed drained,Fruit/Cooked fruit (incl. cans),Fruit,vegan,1,100,1.76,0.48
+539,0,13.5,0,1,0,4,4.5,0,0,0,0,0,0,0,0,18.5,3,25,22.5,30.5,5.5,0,molasses,Sweets/Jams and sweet sandwich spreads,Sweets,vegan,11,50,15.58,3.29
+541,1,0,23,5,0,13,5,4,0,42,8,42,5,16,2,10,0,1,5,8,6,0,morel,Vegetables/Mushrooms,Vegetables,vegan,9,100,5.03,1.91
+542,1,0,28,6,0,12,5,4,0,41,6,42,5,19,2,9,0,1,5,8,6,0,morel stewed,Vegetables/Mushrooms,Vegetables,vegan,10,100,5.28,2.12
+546,1,0,16,7,2,7,25,4,0,42,9,41,4,13,1,10,0,1,4,16,10,0,mushroom,Vegetables/Mushrooms,Vegetables,vegan,11,100,8.54,2.6
+547,1,0,20,8,2,7,25,4,0,42,6,41,4,16,1,10,0,1,4,17,10,0,mushroom stewed,Vegetables/Mushrooms,Vegetables,vegan,11,100,9.05,2.86
+551,1,0,8,4,0,2,17,4,0,17,3,33,2,0,0,3,23,2,4,5,6,0,mushroom canned,Vegetables/Mushrooms,Vegetables,vegan,6,100,4.27,0.9
+554,8.67,0.67,6,4.67,0,8,1.33,0.33,0,3.33,2,1,0,0,3.67,1.67,36.33,3.67,10.33,3.67,4.67,0,mustard,Various/Sauces,Sauces,vegan,14,33.33,4.19,0.88
+556,1,4,7,2,4,2,3,1,0,6,1,3,11,0,4,5,0,1,3,1,1,0,nectarine,Fruit/Fresh fruit,Fruit,vegan,3,100,1.26,0.48
+561,23,20,51,37,0,85,20,26,0,8,17,21,0,0,14,14,0,6,77,36,39,0,oat bran,"Bread, flakes and breakfast cereals/Flakes, bran and germs",Cereal,vegan,18,100,29.65,6.26
+562,25,24,35,27,0,42,12,7,0,7,16,12,0,0,6,10,1,5,39,25,38,0,oat flakes,"Bread, flakes and breakfast cereals/Flakes, bran and germs",Cereal,vegan,17,100,23.87,5.04
+563,100,0,0,0,0.33,0,0,0,0,0,0,0,0,0,77.33,0,0,0,0,0.33,0,0,olive oil,Fats and oils/Oils,Oils,vegan,4,33.33,0.08,0.03
+564,57,0,21,3,3,2,0,2,0,1,1,1,0,0,51,0,47,8,5,57,1,0,olive black,"Nuts, seeds and oleaginous fruit",Nuts and seeds,vegan,8,100,17.34,3.82
+565,52,0,12,3,0,1,0,1,0,1,1,1,0,1,44,1,84,6,8,1,1,0,olive green,"Nuts, seeds and oleaginous fruit",Nuts and seeds,vegan,8,100,2.76,0.64
+569,1,3,6,3,0,5,2,8,0,2,3,2,6,0,1,3,0,3,3,2,2,0,onion,Vegetables/Fresh vegetables,Vegetables,vegan,3,100,2.51,0.53
+570,2,7,14,6,0,11,5,17,0,6,4,5,11,0,3,6,1,7,7,4,6,0,onion roasted brown,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,11,100,5.78,1.22
+571,1,3,7,3,0,5,2,8,0,2,2,2,5,0,1,2,0,3,3,2,2,0,onion stewed,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,2,100,2.51,0.53
+572,2,4,0,1,1,8,3,4,0,2,7,3,33,0,2,4,0,1,4,1,1,0,orange juice,Fruit/Fruit juices;Non-alcoholic beverages/Fruit and vegetable juices,Fruit,vegan,3,100,1.01,0.27
+575,1,3,6,2,2,10,3,4,0,3,6,3,54,0,2,4,0,4,3,1,1,0,orange,Fruit/Fresh fruit,Fruit,vegan,4,100,2.01,0.53
+576,98.67,0,0,0,0,0,0,0,0,0,0,0,0,0,23.67,0,0,0,0,0,0,0,palm oil palm fat,Fats and oils/Oils;Fats and oils/Fats,Oils,vegan,4,33.33,0,0
+580,0,4,6,1,5,3,4,3,0,3,6,3,71,0,3,6,1,2,5,1,1,2,papaya ripe,Fruit/Fresh fruit,Fruit,vegan,4,100,1.26,0.53
+581,2.15,0.7,3.5,1.5,21.65,3.25,7.9,0,0,6.4,0,0,0,0,0,2.9,0.1,0.9,3.05,8,2.55,0,paprika,"Various/Salt, spices and flavours",spices and flavours,vegan,16,5,3.25,1.83
+583,2,3,14,8,55,15,27,14,0,12,44,5,192,0,30,21,3,21,12,39,10,0,parsley,Vegetables/Herbs,Vegetables,vegan,16,100,19.6,7.05
+584,1,5,7,2,0,7,9,5,0,6,8,6,9,0,8,6,0,5,5,4,9,3,parsnip cooked,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,10,100,5.03,1.06
+585,1,5,7,3,0,10,12,6,0,8,14,9,21,0,7,13,1,5,8,5,11,3,parsnip,Vegetables/Fresh vegetables,Vegetables,vegan,12,100,6.03,1.27
+586,2,5,35,4,10,0,7,21,0,12,5,4,30,0,3,9,2,1,9,11,4,0,passion fruit,Fruit/Fresh fruit,Fruit,vegan,10,100,5.03,1.59
+587,2,12,8,12,0,4,2,5,0,7,3,2,0,0,1,1,28,1,7,3,9,40,pasta eggfree cooked in salted water,"Cereal products, pulses and potatoes/Pasta",Cereal,vegan,10,100,6.28,1.33
+600,1,4,7,1,2,1,3,1,0,6,1,3,7,0,4,4,0,1,3,3,1,0,peach,Fruit/Fresh fruit,Fruit,vegan,3,100,1.51,0.42
+602,1,3,5,1,2,1,3,1,0,5,1,2,3,0,4,2,0,1,2,3,1,0,peach unsweetened canned,Fruit/Cooked fruit (incl. cans),Fruit,vegan,0,100,1.51,0.42
+603,164,6,29,52,0,60,39,1,0,100,34,41,0,0,46,18,1,6,52,11,50,50,peanut,"Nuts, seeds and oleaginous fruit",Nuts and seeds,vegan,18,100,29.9,6.31
+606,100,0,0,0,0,0,0,0,0,0,0,0,0,0,39,0,0,0,0,0,0,0,peanut oil,Fats and oils/Oils,Oils,vegan,4,33.33,0,0
+607,167,6,27,52,0,14,6,31,0,103,22,19,0,0,21,13,35,5,55,8,36,8,peanut roasted salted,"Savoury snacks/Salted nuts, seeds and kernels",Nuts and seeds,vegan,19,100,25.38,5.36
+608,2,4,0,1,0,3,3,1,0,1,3,1,3,0,4,3,0,1,2,2,2,0,pear juice,Fruit/Fruit juices;Non-alcoholic beverages/Fruit and vegetable juices,Fruit,vegan,0,100,1.51,0.32
+611,5,24,45,5,0,6,6,2,0,5,13,3,9,0,12,10,1,4,11,9,14,0,pear dried,Fruit/Dried fruit,Fruit,vegan,13,100,8.04,1.7
+612,1,5,8,1,0,1,2,2,0,2,3,2,5,0,4,3,0,1,2,1,1,0,pear,Fruit/Fresh fruit,Fruit,vegan,1,100,1.01,0.21
+615,1,5,8,1,0,2,3,1,0,2,2,2,3,0,3,3,0,1,2,1,1,0,pear unsweetened canned,Fruit/Cooked fruit (incl. cans),Fruit,vegan,1,100,1.01,0.21
+620,2,2,10,8,9,12,30,4,0,9,37,3,33,0,42,6,1,21,10,63,15,0,peppermint,Vegetables/Herbs,Vegetables,vegan,15,100,26.88,6.15
+621,47.33,1,2.67,2.67,4,1.67,3,1.67,0,1.67,3,1.67,32.33,0.67,49.67,1.67,23.67,5,4,1.33,3,2.33,pesto sauce green,Various/Sauces,Sauces,vegan,17,33.33,3.02,0.88
+622,39.67,1.33,5.67,3.67,3,6.33,5,6.33,0.67,8,3.67,4.33,7.33,0,50,8.67,18.33,3.33,6.33,4.33,4,0,pesto sauce red,Various/Sauces,Sauces,vegan,22,33.33,3.85,0.97
+626,206,5,21,33,0,49,24,16,0,28,21,7,0,0,99,20,0,2,119,43,72,2,pine nuts,"Nuts, seeds and oleaginous fruit",Nuts and seeds,vegan,16,100,37.69,7.95
+627,1,5,5,1,1,6,2,5,0,2,3,2,52,0,1,4,0,2,5,2,1,0,pineapple,Fruit/Fresh fruit,Fruit,vegan,2,100,1.51,0.37
+629,1,5,5,1,1,6,3,6,0,2,2,3,9,0,1,3,0,1,5,2,1,0,pineapple unsweetened canned,Fruit/Cooked fruit (incl. cans),Fruit,vegan,3,100,1.26,0.32
+630,151,7,33,48,3,43,22,64,0,9,23,9,6,0,14,25,0,9,39,19,41,11,pistachio dried,"Nuts, seeds and oleaginous fruit",Nuts and seeds,vegan,20,100,29.4,6.36
+643,1,4,5,1,2,4,4,2,0,4,1,3,5,0,7,4,0,1,3,2,1,0,plum,Fruit/Fresh fruit,Fruit,vegan,1,100,1.26,0.37
+645,16,5,3,8,6,3,5,4,26,10,9,5,0,0,1,2,29,8,8,3,6,0,polenta nera cooked,"Cereal products, pulses and potatoes/Corn",Cereal,vegan,11,100,6.28,1.64
+646,116,20,13,10,0,39,5,76,0,10,20,14,34,0,24,22,33,1,13,6,8,0,pommes chips,Savoury snacks/Chips/Crisps,Other,vegan,18,100,6.28,1.33
+647,14,25,50,24,1,20,18,14,0,17,8,7,0,0,92,8,0,1,35,18,21,0,popcorn,Savoury snacks/Other savoury snacks,Other,vegan,17,100,16.08,3.45
+680,74,24,15,12,0,46,5,91,0,12,24,17,41,0,22,26,33,2,15,7,10,0,potato chips fat reduced,Savoury snacks/Chips/Crisps,Other,vegan,18,100,7.79,1.64
+683,13,5,6,3,0,7,4,7,0,8,4,5,14,0,11,7,4,1,5,2,2,0,potato salad with oil and vinagre dressing,Prepared dishes/Salads,Cereal,vegan,8,100,2.01,0.42
+685,0,6,7,4,0,8,5,10,0,10,7,6,20,0,0,10,0,1,6,3,4,0,potato peeled,"Cereal products, pulses and potatoes/Potatoes",Cereal,vegan,10,100,3.02,0.64
+686,0,6,7,4,0,7,5,9,0,9,4,6,17,0,0,8,0,1,6,3,4,0,potatoe peeled steamed,"Cereal products, pulses and potatoes/Potatoes",Cereal,vegan,9,100,3.02,0.64
+692,14,29,2,17,2,1,4,0,0,6,0,0,0,0,9,3,114,14,0,5,6,0,pretzel sticks,Savoury snacks/Salt sticks and pretzels,Other,vegan,10,100,10.55,2.33
+701,0,4,8,1,2,3,2,2,0,3,1,2,4,0,5,6,0,1,3,3,1,0,prune plum,Fruit/Fresh fruit,Fruit,vegan,2,100,1.51,0.42
+702,0,3,8,1,2,2,2,2,0,3,1,2,2,0,6,4,0,2,3,3,1,0,prune plum stewed drained,Fruit/Cooked fruit (incl. cans),Fruit,vegan,2,100,1.76,0.48
+703,1,16,53,5,11,10,18,9,0,14,2,8,2,0,19,24,1,5,13,19,4,0,prune dried,Fruit/Dried fruit,Fruit,vegan,15,100,8.29,2.33
+713,100,0,0,0,16.67,0,0,0,0,0,0,0,0,0,33.67,0,0,0,0,0,0,0,pumpkin seed oil,Fats and oils/Oils,Oils,vegan,6,33.33,0,0.88
+714,164,2,20,71,0,29,15,7,0,23,43,6,2,0,16,22,0,6,168,55,62,18,pumpkin seeds,"Nuts, seeds and oleaginous fruit",Nuts and seeds,vegan,18,100,48.74,10.29
+715,0,2,3,1,27,1,6,7,0,4,9,8,11,0,1,7,0,2,2,3,11,0,pumpkin,Vegetables/Fresh vegetables,Vegetables,vegan,9,100,4.27,2.33
+716,0,2,3,1,26,1,6,6,0,4,6,8,9,0,1,6,0,2,2,2,10,0,pumpkin steamed,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,9,100,3.77,2.17
+719,1,3,21,1,0,2,2,3,0,2,2,2,8,0,4,4,0,2,2,2,4,0,quince cooked drained,Fruit/Cooked fruit (incl. cans),Fruit,vegan,2,100,2.26,0.48
+720,1,3,21,1,0,2,2,3,0,2,3,2,16,0,3,5,0,1,2,2,2,0,quince,Fruit/Fresh fruit,Fruit,vegan,2,100,1.51,0.32
+721,5,8,7,10,0,9,7,6,0,1,10,4,0,0,12,6,0,3,31,18,10,1,quinoa cooked,"Cereal products, pulses and potatoes/Other cereal products",Cereal,vegan,14,100,10.3,2.17
+724,0,1,10,3,10,6,5,4,0,2,5,3,8,0,5,4,0,4,0,2,2,0,radicchio red,Vegetables/Fresh vegetables,Vegetables,vegan,5,100,2.76,1.11
+725,1,1,4,1,1,3,4,4,0,2,17,2,16,0,0,6,1,2,2,5,2,0,radish,Vegetables/Fresh vegetables,Vegetables,vegan,3,100,2.51,0.58
+726,0,1,5,2,0,2,3,4,0,2,8,2,23,0,0,6,1,3,3,3,2,0,radish red,Vegetables/Fresh vegetables,Vegetables,vegan,3,100,2.51,0.53
+727,3,29,14,6,0,11,3,6,0,5,1,2,0,0,14,20,1,8,13,15,2,1,raisins dried sultanas,Fruit/Dried fruit,Fruit,vegan,12,100,7.79,1.64
+728,100,0,0,0,0,0,0,0,0,0,0,0,0,0,83.33,0,0,0,0,0,0,0,rapeseed oil,Fats and oils/Oils,Oils,vegan,4,33.33,0,0
+729,100,0,0,0,0,0,0,0,0,0,0,0,0,0,78.67,0,0,0,0,0,0,0,rapeseed oil holl,Fats and oils/Oils,Oils,vegan,4,33.33,0,0
+731,2,3,22,2,0,2,4,4,0,4,8,5,22,0,2,6,0,2,6,5,6,0,raspberry,Fruit/Fresh fruit,Fruit,vegan,6,100,3.77,0.8
+732,7,2,7,3,5,4,4,9,0,5,6,4,39,0,8,5,12,2,4,3,2,0,ratatouille prepared,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,7,100,2.51,0.8
+737,1,2,10,3,0,6,3,11,0,3,14,6,61,0,8,6,1,5,4,3,2,0,red cabbage,Vegetables/Fresh vegetables,Vegetables,vegan,8,100,3.27,0.69
+738,1,1,9,2,0,5,2,9,0,2,8,5,29,0,7,4,1,5,3,3,2,0,red cabbage stewed,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,5,100,3.02,0.64
+742,0,7,7,1,1,2,2,1,0,2,1,1,8,0,1,6,0,7,3,1,1,0,rhubarb compote with sugar,Fruit/Cooked fruit (incl. cans),Fruit,vegan,5,100,2.51,0.58
+745,0,0,8,1,1,3,3,2,0,2,3,2,13,0,2,7,0,9,4,2,2,0,rhubarb,Fruit/Fresh fruit,Fruit,vegan,4,100,3.52,0.8
+746,4,4,1,1,0,2,1,1,0,2,2,2,1,2,4,0,1,0,1,0,1,33,rice drink plain,Milk and dairy products/Milk substitutes,beverages,vegan,1,100,0.5,0.21
+747,1,11,1,5,0,5,1,1,0,11,1,3,0,0,0,1,36,2,4,1,8,0,rice parboiled cooked in salted water,"Cereal products, pulses and potatoes/Rice",Cereal,vegan,6,100,4.02,0.85
+748,3,31,4,15,0,28,4,9,0,42,4,13,0,0,0,4,0,6,10,3,21,0,rice parboiled,"Cereal products, pulses and potatoes/Rice",Cereal,vegan,11,100,11.31,2.39
+754,3,10,6,5,0,7,1,1,0,10,4,5,0,0,1,2,41,1,15,3,8,0,rice unpolished cooked in salted water,"Cereal products, pulses and potatoes/Rice",Cereal,vegan,9,100,4.27,0.9
+760,2,1,5,5,28,8,8,10,0,2,32,4,16,0,4,9,2,16,0,10,5,0,rocket,Vegetables/Fresh vegetables,Vegetables,vegan,10,100,9.05,3.39
+767,1,1,5,2,14,6,6,4,0,3,28,3,6,0,4,6,1,4,4,2,0,0,romaine lettuce,Vegetables/Fresh vegetables,Vegetables,vegan,7,100,2.01,1.17
+768,1,2,9,2,57,3,4,5,0,4,6,3,5,0,4,2,1,3,2,2,1,0,root and tuber vegetables boiled,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,4,100,2.01,3.45
+769,1,2,9,2,60,4,5,6,0,6,12,6,8,0,4,5,3,3,4,2,2,0,root and tuber vegetables,Vegetables/Fresh vegetables,Vegetables,vegan,8,100,2.26,3.66
+770,1,3,10,2,60,4,5,6,0,5,8,5,7,0,4,5,2,4,4,2,2,0,root and tuber vegetables steamed,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,6,100,2.51,3.71
+771,1,2,9,2,53,3,4,5,0,4,7,4,6,0,3,4,2,3,3,2,2,0,root and tuber vegetables stewed,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,5,100,2.26,3.29
+773,8,3,10,2,7,9,11,4,0,1,0,0,17,0,7,4,1,21,12,32,6,0,rosemary,Vegetables/Herbs,Vegetables,vegan,12,100,15.33,3.61
+774,19,8,9,5,0,10,5,11,0,12,6,7,22,0,15,11,33,1,8,3,5,0,rosti unprepared,"Cereal products, pulses and potatoes/Potatoes",Cereal,vegan,15,100,3.52,0.74
+775,32,28,9,29,6,13,20,4,2,7,8,8,0,0,4,6,53,7,7,4,8,0,rusk,"Bread, flakes and breakfast cereals/Crispbreads, rusks, crackers and wafers",Cereal,vegan,18,100,12.06,2.86
+776,30,24,26,35,4,29,25,23,3,29,11,14,0,0,12,10,49,10,32,24,34,0,rusk wholemeal,"Bread, flakes and breakfast cereals/Crispbreads, rusks, crackers and wafers",Cereal,vegan,20,100,25.88,5.67
+780,3,17,26,13,0,16,10,12,0,8,6,7,0,0,4,6,35,2,15,12,24,3,rye bread with sour dough,"Bread, flakes and breakfast cereals/Bread and bread products",Cereal,vegan,16,100,12.81,2.7
+781,5,25,47,22,0,37,20,25,0,16,23,18,0,0,7,10,0,3,26,21,45,5,rye flour type,"Cereal products, pulses and potatoes/Flour and starch",Cereal,vegan,16,100,22.86,4.83
+784,100,0,0,0,0,0,0,0,0,0,0,0,0,0,110,0,0,0,0,0,0,0,safflower oil,Fats and oils/Oils,Oils,vegan,4,33.33,0,0
+785,7,3,10,3,34,12,5,39,0,8,0,0,0,0,6,4,0,27,22,30,10,0,sage,Vegetables/Herbs,Vegetables,vegan,12,100,17.59,5.51
+787,56.33,0.33,0,0.33,0.33,0.33,0,1.33,0,0,0,0,0.33,0,43.67,0.33,6.33,0.33,0.67,0.33,0.67,0,salad dressing italian style homemade,Fats and oils/Salad dressings,Sauces,vegan,5,33.33,0.42,0.11
+799,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,126.65,0.7,0,8,0,0,salt himalaya salt,"Various/Salt, spices and flavours",spices and flavours,vegan,3,5,2.19,0.46
+800,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.2,126.35,0.55,6.75,0,0,0,salt sea salt fleur de sel,"Various/Salt, spices and flavours",spices and flavours,vegan,3,5,0.14,0.03
+801,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,132.35,0.15,0.6,0,0,0,salt sea salt standard white without iodine and fluoride added,"Various/Salt, spices and flavours",spices and flavours,vegan,2,5,0.04,0.01
+824,1,1,7,3,0,3,5,12,0,2,4,3,18,0,1,6,37,4,4,3,4,0,sauerkraut pickled,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,5,100,3.52,0.74
+830,1,1,9,6,1,8,5,13,0,3,20,5,68,0,21,6,1,6,4,4,4,0,savoy cabbage,Vegetables/Fresh vegetables,Vegetables,vegan,9,100,5.03,1.11
+831,1,1,8,5,1,6,5,11,0,2,12,4,38,0,21,5,0,6,4,3,2,0,savoy cabbage steamed,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,7,100,4.02,0.9
+842,5,4,121,63,298,58,174,38,0,49,7,4,60,3,24,43,132,32,158,247,56,85,seaweed nori dried,Vegetables/Dried vegetables,Vegetables,vegan,20,100,100,37.06
+843,175,4,32,42,0,52,20,25,0,24,30,14,1,0,72,17,1,17,84,30,50,45,seeds kernels nuts unsalted,"Nuts, seeds and oleaginous fruit",Nuts and seeds,vegan,18,100,34.92,7.37
+844,4,19,12,19,0,15,6,14,0,7,7,6,0,0,2,4,45,2,12,12,16,5,semiwhite bread,"Bread, flakes and breakfast cereals/Bread and bread products",Cereal,vegan,15,100,12.31,2.6
+851,179,2,44,46,0,75,20,24,0,38,57,6,0,0,2,12,0,93,106,51,69,33,sesame seeds whole,"Nuts, seeds and oleaginous fruit",Nuts and seeds,vegan,17,100,65.08,13.73
+852,191,2,29,54,1,83,11,25,0,38,38,6,0,0,2,12,2,4,113,39,72,93,sesame seeds peeled,"Nuts, seeds and oleaginous fruit",Nuts and seeds,vegan,16,100,42.46,9.01
+873,0,13,1,0,0,2,1,1,0,1,2,1,11,0,0,1,0,1,1,1,1,0,sorbet fruit,Sweets/Water based ice cream,Fruit,vegan,4,100,0.75,0.16
+876,0.67,0.67,1,5.33,0,1,5,3.67,0,6,1.67,1.67,0,0,0,3.67,122,1,8,3.33,3.67,0.33,soy sauce,Various/Sauces,Sauces,vegan,9,33.33,3.35,0.71
+877,7,0,2,8,0,9,1,4,0,2,9,2,0,0,2,3,2,1,5,3,4,0,soya drink plain,Milk and dairy products/Milk substitutes,beverages,vegan,4,100,4.02,0.85
+879,69,1,62,82,1,77,25,36,0,18,63,30,0,0,12,47,0,20,81,80,61,12,soya flour full fat,"Cereal products, pulses and potatoes/Flour and starch",Cereal,vegan,18,100,61.06,12.94
+880,100,0,0,0,0,0,0,0,0,0,0,0,0,0,15.33,0,0,0,0,0,0,0,soybean oil,Fats and oils/Oils,Oils,vegan,4,33.33,0,0
+881,3,2,8,11,1,9,15,11,0,12,53,10,11,0,1,6,2,3,6,6,12,0,soybean sprouts,Vegetables/Sprouts and shoots,Vegetables,vegan,13,100,8.04,1.75
+882,24,1,29,30,2,27,13,20,0,6,17,6,9,0,5,14,0,7,24,15,19,0,soybean cooked,"Cereal products, pulses and potatoes/Pulses",Cereal,vegan,17,100,17.84,3.87
+883,61,3,73,76,5,103,42,71,0,22,83,28,36,0,12,45,0,20,71,44,52,0,soybean dried,"Cereal products, pulses and potatoes/Pulses",Cereal,vegan,18,100,48.24,10.45
+884,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,1,2,5,0,0,sparkling wine champagne,Alcoholic beverages/Wine,Alcoholic beverages,vegan,0,100,1.51,0.32
+886,5,28,9,27,0,27,4,5,0,7,5,6,0,0,2,2,0,2,7,7,11,4,spelt fine flour,"Cereal products, pulses and potatoes/Flour and starch",Cereal,vegan,11,100,11.81,2.49
+888,9,24,31,31,0,46,8,14,0,0,0,11,0,0,12,10,1,4,45,24,56,11,spelt wholemeal flour,"Cereal products, pulses and potatoes/Flour and starch",Cereal,vegan,16,100,28.89,6.1
+891,1,0,9,5,37,8,20,15,0,6,35,4,42,0,15,13,4,10,19,18,8,0,spinach,Vegetables/Fresh vegetables,Vegetables,vegan,15,100,10.3,4.14
+892,2,0,11,7,44,8,24,16,0,6,27,4,30,0,20,15,5,13,22,19,9,0,spinach steamed,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,16,100,12.06,4.88
+898,37,9,8,13,2,11,5,9,6,12,8,4,1,2,7,4,41,2,5,6,8,7,spring roll deep fried,Prepared dishes/Asian dishes,Other,vegan,17,100,7.29,1.75
+903,2,3,7,1,0,2,2,3,0,3,10,3,61,0,2,4,0,2,4,3,1,0,strawberry,Fruit/Fresh fruit,Fruit,vegan,3,100,1.76,0.37
+906,1,4,17,8,6,17,14,11,0,22,11,12,26,0,4,8,0,2,10,13,4,0,sugar pea,Vegetables/Fresh vegetables,Vegetables,vegan,14,100,6.78,1.75
+907,1,4,18,9,6,15,14,11,0,20,8,12,22,0,5,7,0,2,10,12,4,0,sugar pea steamed,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,14,100,6.78,1.75
+908,0,19.5,0,0,0,0,0,0.5,0,0,0,1,0,0,0,4,1.5,4,3.5,6.5,0.5,1,sugar brown,Sweets/Sugar and sweeteners,Sweets,vegan,7,50,2.76,0.58
+909,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,0,sugar white,Sweets/Sugar and sweeteners,Sweets,vegan,3,50,0.13,0.03
+910,100,0,0,0,0,0,0,0,0,0,0,0,0,0,143.67,0,0,0,0,0.33,0,0,sunflower oil,Fats and oils/Oils,Oils,vegan,4,33.33,0.08,0.02
+911,100,0,0,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,sunflower oil ho refined,Fats and oils/Oils,Oils,vegan,4,33.33,0,0
+912,182,1,27,50,0,148,33,96,0,69,76,19,1,0,288,19,0,9,106,33,72,16,sunflower seeds,"Nuts, seeds and oleaginous fruit",Nuts and seeds,vegan,18,100,41.21,8.7
+914,4,7,8,6,1,3,7,6,0,10,7,8,1,0,4,4,18,0,7,3,6,0,sweet corn heated,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,11,100,3.77,0.85
+915,4,7,8,6,1,4,7,6,0,12,11,8,1,0,4,5,20,0,7,4,6,0,sweet corn canned,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,11,100,4.02,0.9
+916,5,8,14,7,1,22,6,7,0,14,17,12,7,0,6,6,1,0,11,4,0,0,sweet corn cob pickled,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,15,100,2.76,0.64
+917,4,6,9,7,1,15,11,16,0,14,14,15,13,0,1,7,0,0,9,3,8,0,sweet corn,Vegetables/Fresh vegetables,Vegetables,vegan,13,100,4.52,1.01
+918,4,7,10,7,1,14,11,15,0,13,10,14,11,0,1,7,0,0,9,3,8,0,sweet corn steamed,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,13,100,4.52,1.01
+919,0,7,10,3,53,8,5,15,0,5,4,13,20,0,2,10,4,4,8,4,4,0,sweet potato,"Cereal products, pulses and potatoes/Potatoes",Cereal,vegan,10,100,3.77,3.61
+920,0,7,10,3,49,7,5,13,0,4,2,12,17,0,2,9,3,4,8,3,4,0,sweet potato steamed,"Cereal products, pulses and potatoes/Potatoes",Cereal,vegan,10,100,3.52,3.34
+922,1,1,3,4,17,7,12,6,0,3,6,3,22,0,0,10,11,8,26,15,4,0,swiss chard,Vegetables/Fresh vegetables,Vegetables,vegan,12,100,7.79,2.55
+923,1,1,4,5,20,7,14,6,0,3,5,3,16,0,0,10,13,10,31,16,5,0,swiss chard steamed,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,11,100,9.05,2.97
+926,0,5,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,syrup ready to drink,Non-alcoholic beverages/Soft drinks;Non-alcoholic beverages/Cordial,beverages,vegan,0,100,0.5,0.11
+927,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,130.65,0.05,0,0.1,0.05,0,table salt iodized,"Various/Salt, spices and flavours",spices and flavours,vegan,1,5,0.05,0.01
+933,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,tea no sugar added,Non-alcoholic beverages/Tea,beverages,vegan,0,100,0,0
+944,4,3,10,3,34,8,6,11,0,7,6,0,0,0,7,3,1,31,12,133,12,0,thyme,Vegetables/Herbs,Vegetables,vegan,13,100,44.97,11.29
+947,19,1,4,31,0,8,4,4,0,3,7,2,0,0,10,4,1,19,25,19,19,0,tofu firm plain,Meat substitutes,Other,vegan,11,100,22.11,4.67
+948,11,0,1,12,0,8,2,6,0,4,15,3,0,0,4,6,2,9,10,8,1,0,tofu silken plain,Meat substitutes,Other,vegan,9,100,7.54,1.59
+949,32,1,1,33,0,9,3,3,0,3,5,3,0,1,11,5,20,6,45,13,18,0,tofu smoked,Meat substitutes,Other,vegan,11,100,17.59,3.76
+950,0,1,0,2,5,3,3,4,0,3,5,4,10,0,7,6,15,1,4,3,2,0,tomato juice,Vegetables/Vegetable juices;Non-alcoholic beverages/Fruit and vegetable juices,Fruit,vegan,4,100,2.01,0.69
+951,1,5,9,9,5,22,11,31,0,29,18,17,40,0,45,29,16,5,15,11,9,0,tomato paste,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,15,100,8.54,2.07
+954,2.33,1.33,2,1.33,3,2,1.67,0,0,2.67,1.33,1.67,4,0,1.33,3,12,0.67,1.67,3,1.67,0,tomato sauce,Various/Sauces,Sauces,vegan,10,33.33,1.68,0.51
+955,4,3,2,2,2,3,2,4,0,5,2,3,7,0,1,4,27,1,3,3,2,0,tomato soup,Prepared dishes/Stews and soups,Vegetables,vegan,2,100,2.01,0.53
+956,2,12,72,23,16,53,45,24,0,75,23,35,34,0,0,86,141,14,58,43,25,9,tomato dried,Vegetables/Dried vegetables,Vegetables,vegan,21,100,26.38,6.42
+957,1,1,3,2,4,5,3,4,0,6,4,3,14,0,8,6,7,2,4,5,1,0,tomato peeled canned,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,5,100,2.51,0.74
+958,1,1,4,2,6,5,4,6,0,5,6,5,23,0,8,6,0,1,2,1,1,0,tomato,Vegetables/Fresh vegetables,Vegetables,vegan,7,100,1.26,0.58
+959,1,2,5,2,7,5,4,6,0,5,4,5,22,0,11,6,0,1,2,1,1,0,tomato stewed,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,6,100,1.26,0.64
+962,91,22,15,16,0,15,18,12,0,15,6,5,0,0,49,5,65,7,14,13,0,0,tortilla chips cornbased,Savoury snacks/Chips/Crisps,Other,vegan,16,100,9.05,1.91
+1001,1,1,7,3,15,5,5,8,0,5,12,5,33,0,5,6,1,3,4,3,2,0,vegetables,Vegetables/Fresh vegetables,Vegetables,vegan,7,100,2.76,1.38
+1002,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,2,3,0,0,vermouth vol,Alcoholic beverages/Wine,Alcoholic beverages,vegan,2,100,1.01,0.21
+1003,28,0.33,0.67,3,2,1.33,2.67,1.33,2.67,0.33,2.33,3.67,0.67,1,21.33,0.67,3,0.67,1,1.67,2,0,vinaigrette dressing,Fats and oils/Salad dressings,Sauces,vegan,13,33.33,1.84,0.55
+1004,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.05,0.05,0.05,0.1,0.05,0.1,0,vinegar,"Various/Salt, spices and flavours",spices and flavours,vegan,0,5,0.05,0.01
+1005,36.67,0.33,1,0.67,0,1,0.33,1,0,0.33,0.33,0.33,0.67,0,30.67,0.67,6,0.67,1.33,0.33,0.67,0,vinegaroilsalad dressing homemade,Fats and oils/Salad dressings,Sauces,vegan,5,33.33,0.59,0.12
+1008,224,3,22,31,0,42,5,14,0,3,37,23,1,0,31,10,0,8,45,17,34,2,walnut,"Nuts, seeds and oleaginous fruit",Nuts and seeds,vegan,15,100,22.61,4.77
+1009,100,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,0,0,walnut oil,Fats and oils/Oils,Oils,vegan,4,33.33,0,0
+1010,11.67,6.67,1.33,2,0,0,0,0,0,0,0,0,0,0,0,0,51.67,0,0,0,0,0,wasabi paste,Various/Sauces,Sauces,vegan,6,33.33,0.5,0.11
+1011,1,0,9,4,32,9,11,13,0,3,71,3,40,0,10,8,3,16,6,9,2,0,water cress,Vegetables/Fresh vegetables,Vegetables,vegan,13,100,7.79,3.34
+1013,1,3,1,1,4,3,2,5,0,2,1,3,8,0,1,3,0,1,3,1,1,0,watermelon,Fruit/Fresh fruit,Fruit,vegan,1,100,1.01,0.42
+1016,16,7,150,30,0,83,46,39,0,150,65,38,0,0,22,34,0,7,155,107,115,0,wheat bran,"Bread, flakes and breakfast cereals/Flakes, bran and germs",Cereal,vegan,18,100,65.08,13.73
+1023,100,0,0,0,0,0,0,0,0,0,0,0,0,0,341.67,0,0,0,0,0,0,0,wheat germ oil,Fats and oils/Oils,Oils,vegan,4,33.33,0,0
+1026,6,24,44,27,0,46,8,19,0,42,29,20,0,0,8,10,1,3,31,21,32,0,wheat wolemeal flakes,"Bread, flakes and breakfast cereals/Flakes, bran and germs",Cereal,vegan,17,100,20.85,4.4
+1028,3,20,8,17,0,11,4,4,0,6,6,4,0,0,1,3,45,1,5,4,6,3,white bread,"Bread, flakes and breakfast cereals/Bread and bread products",Cereal,vegan,10,100,7.04,1.48
+1030,1,2,10,3,0,5,5,13,0,3,10,4,65,0,14,6,0,6,4,2,2,0,white cabbage,Vegetables/Fresh vegetables,Vegetables,vegan,7,100,3.27,0.69
+1031,1,2,9,3,0,4,4,11,0,2,6,3,36,0,14,6,0,5,4,1,2,0,white cabbage steamed,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,6,100,2.76,0.58
+1032,1,2,10,3,0,4,4,11,0,2,7,3,36,0,15,6,0,6,3,2,2,0,white cabbage stewed,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,7,100,3.27,0.69
+1037,4,11,18,12,0,27,4,6,0,11,4,6,0,0,1,3,28,2,15,9,18,0,wholemeal pasta eggfree cooked in salted water,"Cereal products, pulses and potatoes/Pasta",Cereal,vegan,13,100,10.3,2.17
+1039,9,33,14,15,0,6,15,11,0,65,7,17,0,0,6,7,22,1,42,10,38,0,wholemeal rice waffles,"Bread, flakes and breakfast cereals/Crispbreads, rusks, crackers and wafers",Cereal,vegan,18,100,16.08,3.39
+1040,4,15,23,17,0,23,10,19,0,25,7,10,0,0,8,6,39,2,26,21,28,5,wholewheat bread,"Bread, flakes and breakfast cereals/Bread and bread products",Cereal,vegan,17,100,17.09,3.61
+1055,1,5,8,1,2,6,4,4,0,4,3,3,7,0,4,6,0,1,5,3,1,0,yellow plum,Fruit/Fresh fruit,Fruit,vegan,4,100,1.51,0.42
+1061,7,1,5,8,1,4,4,3,0,1,9,3,1,2,15,2,2,1,7,3,1,17,yogurt substitute soybased plain,Milk and dairy products/Milk substitutes,Other,vegan,6,100,3.27,0.85
+1062,7,1,5,8,1,4,4,3,0,1,9,3,1,2,15,2,2,12,7,3,1,17,yogurt substitute soybased plain with calcium fortified,Milk and dairy products/Milk substitutes,Other,vegan,7,100,6.03,1.43
+1077,1,1,3,4,2,5,4,6,0,5,12,3,16,0,0,6,0,2,7,5,2,0,zucchini,Vegetables/Fresh vegetables,Vegetables,vegan,5,100,3.27,0.8
+1078,1,1,4,4,2,4,4,5,0,5,8,3,14,0,0,6,0,2,8,5,4,0,zucchini steamed,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,4,100,3.77,0.9
+1079,1,1,4,4,2,5,4,6,0,5,9,3,15,0,0,6,0,2,8,6,4,0,zucchini stewed,Vegetables/Cooked vegetables (incl. cans),Vegetables,vegan,6,100,4.02,0.95
+1082,11,1,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,almond drink plain,Milk and dairy products/Milk substitutes,beverages,vegan,1,100,0.5,0.11
+1083,4,0,1,0,0,0,0,0,10,0,0,0,0,4,0,0,0,12,0,0,0,0,almond drink with calcium and vitamin fortified,Milk and dairy products/Milk substitutes,beverages,vegan,2,100,3.02,0.85
+1141,5,3,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,oat drink plain,Milk and dairy products/Milk substitutes,beverages,vegan,0,100,0.25,0.05
+1142,6,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,oat drink plain with calcium fortified,Milk and dairy products/Milk substitutes,beverages,vegan,2,100,3.27,0.69
+1144,5,4,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,rice drink plain with calcium fortified,Milk and dairy products/Milk substitutes,beverages,vegan,1,100,3.27,0.69
+1146,6,1,2,6,0,0,0,0,8,0,0,0,0,3,0,0,0,12,0,0,0,0,soya drink plain with calcium and vitamin fortified,Milk and dairy products/Milk substitutes,beverages,vegan,4,100,4.52,1.11
+1147,7,1,2,7,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,soya drink plain with calcium fortified,Milk and dairy products/Milk substitutes,beverages,vegan,3,100,4.77,1.01
