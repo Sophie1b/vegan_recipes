@@ -117,11 +117,7 @@ name_1 = df_top3.iloc[1,22]
 df_top3
 name_1
 
-chart_data = pd.DataFrame(
-     np.random.randn(50, 1),
-     columns=["a"])
 
-st.bar_chart(chart_data)
 
 
 df = df_forplot[df_forplot['Name']=='chia seed']
@@ -130,11 +126,15 @@ df = df.T
 df.drop('Name',inplace=True)
 #df = df.reset_index()
 #df.rename(columns={'index':'Name',df.columns[1]:'Value'},inplace=True)
-df.rename(columns={df.columns[0]:'Name'},inplace=True)
+df.rename(columns={df.columns[0]:'Value'},inplace=True)
 df
 
+chart_data = pd.DataFrame(
+     df.Value.unique().tolist(),
+     columns=["Name"])
 
-st.bar_chart(df)
+st.bar_chart(chart_data)
+
 
 
 #fig = px.bar(df, x='Name', y='Value')
