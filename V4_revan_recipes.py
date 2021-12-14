@@ -82,7 +82,6 @@ recommender_recipes = pd.read_csv('recommender_recipes1.csv',index_col=0)
 
 df_forplot.drop(['Category','Vegan_cat','portion','vegan_score','vegan_score_2',
                  'Food_category','count'],axis=1,inplace=True)
-df_forplot
 
 
 color_list = ["#FF7574","#F1C2A6","#65823F","#FF996B","#F8DE70","#F8DE70","#F8DE70","#F8DE70","#F8DE70","#F8DE70","#F8DE70",
@@ -112,7 +111,7 @@ st.header("**Top food for that nutrient**")
 
 
 
-df_top3 = df_forplot.sort_values('calcium',ascending=False).head(3)
+df_top3 = df_forplot.sort_values(nutrient_focus,ascending=False).head(3)
 name_1 = df_top3.iloc[1,22]
 df_top3
 name_1
