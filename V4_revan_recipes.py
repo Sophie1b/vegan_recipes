@@ -102,7 +102,7 @@ sum_frame_by_column(recommender_recipes,'score',nutrient_focus).sort_values('sco
 
 recommender_recipes.loc[:,'score'] = round(recommender_recipes.loc[:,'score']/(recommender_recipes.score.max())*100,2)
 
-
+recommender_recipes.head(5)
 ##############################################################################################    
 # spider plot with top 3 foods
 ##############################################################################################
@@ -120,10 +120,8 @@ name_1
 df = df_forplot[df_forplot['Name']=='chia seed']
 df
 df = df.T
-df
 df.drop('Name',inplace=True)
 df = df.reset_index()
-df
 df.rename(columns={'index':'Name',df.columns[1]:'Value'},inplace=True)
 df
 fig = px.bar_polar(df, r='Value', theta=np.arange(0,360,17),
