@@ -117,6 +117,13 @@ name_1 = df_top3.iloc[1,22]
 df_top3
 name_1
 
+chart_data = pd.DataFrame(
+     np.random.randn(50, 3),
+     columns=["a", "b", "c"])
+
+st.bar_chart(chart_data)
+
+
 df = df_forplot[df_forplot['Name']=='chia seed']
 df
 df = df.T
