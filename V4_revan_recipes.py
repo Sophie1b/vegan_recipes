@@ -84,6 +84,11 @@ df_forplot.drop(['Category','Vegan_cat','portion','vegan_score','vegan_score_2',
                  'Food_category','count'],axis=1,inplace=True)
 df_forplot
 
+
+color_list = ["#FF7574","#F1C2A6","#65823F","#FF996B","#F8DE70","#F8DE70","#F8DE70","#F8DE70","#F8DE70","#F8DE70","#F8DE70",
+                  "#F8DE70","#F8DE70","#F8DE70","#F8DE70","#C5E6C7","#C5E6C7","#C5E6C7","#C5E6C7","#76B996",
+                  "#76B996","#76B996"]
+
 ##############################################################################################    
 # Selecting the nutrients to focus on 
 ##############################################################################################
@@ -108,7 +113,7 @@ st.header("**Top food for that nutrient**")
 
 
 df_top3 = df_forplot.sort_values('calcium',ascending=False).head(3)
-name_1 = df_top3.iloc[2,22]
+name_1 = df_top3.iloc[1,22]
 df_top3
 name_1
 
