@@ -9,6 +9,10 @@ import string
 from PIL import Image
 from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 
+import matplotlib.pyplot as plt
+import plotly.graph_objects as go
+import plotly.express as px
+
 # sklearn 
 from sklearn.feature_extraction.text import CountVectorizer,TfidfVectorizer
 from sklearn.neighbors import NearestNeighbors
@@ -76,8 +80,9 @@ def recommended_recipes(df,recipe_id, sparse_matrix, k,metric='cosine'):
 df_forplot = pd.read_csv('circular_bar_vegan_clean.csv', index_col=0)
 recommender_recipes = pd.read_csv('recommender_recipes1.csv',index_col=0)
 
-
-
+df_forplot.drop(['Category','Vegan_cat','portion','vegan_score','vegan_score_2',
+                 'Food_category','count'],axis=1,inplace=True)
+df_forplot
 
 ##############################################################################################    
 # Selecting the nutrients to focus on 
@@ -90,7 +95,7 @@ nutrient_focus  = nutrient_focus.split()
 
 sum_frame_by_column(recommender_recipes,'score',nutrient_focus).sort_values('score',ascending=False)
 
-recommender_recipes.loc[:,'score'] = round(recommender_recipes.loc[:,'score']/(recommender_recipes.score.max())*100,2)
+#recommender_recipes.loc[:,'score'] = round(recommender_recipes.loc[:,'score']/(recommender_recipes.score.max())*100,2)
 
 
 ##############################################################################################    
@@ -99,13 +104,14 @@ recommender_recipes.loc[:,'score'] = round(recommender_recipes.loc[:,'score']/(r
 
 st.header("**Top food for that nutrient**")
 
-df_forplot.drop(['Category','Vegan_cat','portion','vegan_score','vegan_score_2',
-                 'Food_category','count'],axis=1,inplace=True)
+
 
 
 df_top3 = df_forplot.sort_values(nutrient_focus,ascending=False).head(3)
 name_1 = df_top3.iloc[2,22]
-             
+df_top3
+name_1
+
 df = df_forplot[df_forplot['Name']==name_1]
 df = df.T
 df.drop('Name',inplace=True)
