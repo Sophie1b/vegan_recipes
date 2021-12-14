@@ -91,7 +91,7 @@ df_forplot
 all_nutrients = recommender_recipes.iloc[:,6:].columns.tolist()
 st.subheader('**Select the nutrients you want to focus on**')
 nutrient_focus = st.multiselect(' ',options=all_nutrients, default=None)
-nutrient_focus  = nutrient_focus.split()
+#nutrient_focus  = nutrient_focus.split()
 
 sum_frame_by_column(recommender_recipes,'score',nutrient_focus).sort_values('score',ascending=False)
 
@@ -107,7 +107,7 @@ st.header("**Top food for that nutrient**")
 
 
 
-df_top3 = df_forplot.sort_values(nutrient_focus,ascending=False).head(3)
+df_top3 = df_forplot.sort_values('calcium',ascending=False).head(3)
 name_1 = df_top3.iloc[2,22]
 df_top3
 name_1
