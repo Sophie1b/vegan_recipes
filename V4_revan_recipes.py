@@ -28,15 +28,15 @@ The vegan diet often focuses on what not to eat, through this recommender system
 """
 # Page styling
 title_image = Image.open("vegan_image.jpg")
-st.image(title_image)
+st.image(title_image, width=400)
 #st.markdown("***'Select the nutrients you want to focus on' ***")
 
 st.header("**Food nutrients**")
-"""We all need nutrients to susrvive. Some are brought to us from the food we eat, some from the sun, some are transformed in our guts and bodies. The scientific community have currently labels over 150 nutrients, but some believe there is still a lot more still to be discovered - a black matter of trace nutrients in the foods we eat. 
-Nutrients are often classified betweent the macro nutrients - fat, carbohydrates and protein that together constitute the kilocalories, and micro nutrients - vitamins, minerals, oligoelements, that are equaly important but at a much smaller level.""" 
+"""We all need nutrients to survive. Some are brought to us from the food we eat, some from the sun, some are transformed in our guts and bodies. The scientific community have currently labels over 150 nutrients, but some believe there is still a lot more  to be discovered - a black matter of trace nutrients in the foods we eat. 
+Nutrients are often classified betweent the macro nutrients - fat, carbohydrates and protein that together constitute the kilocalories, and micro nutrients - vitamins, minerals, oligoelements, that are equaly important but in smaller quantities.""" 
 
 
-"""In the Western world we are currently consuming too many kalories but at the same time not enough of the micronutrients - vitamins, minerals or oligoelements. There are mainly only traces of these element in the foods we eat, nevertheless they are essential for our wellbeing. 
+"""In the Western world, we are currently consuming too many kalories but at the same time not enough of the essential micronutrients - vitamins, minerals or oligoelements. There are mainly only traces of these element in the foods we eat, nevertheless they are essential for our wellbeing. 
 In this data analysis project, I would like to focus on the nutrients we should be eating more of. In a typical vegan diet, some nutrients might be lacking. B12 for instance is not part of any plant based foods and needs to be added to the diet through supplements.  
 Other nutrients, that might be low for vegan eaters can include calcium, iron, protein and zinc. Nevertheless these can still be found in plant based foods."""
 
@@ -86,7 +86,7 @@ recommender_recipes = pd.read_csv('recommender_recipes1.csv',index_col=0)
 all_nutrients = recommender_recipes.iloc[:,6:].columns.tolist()
 st.subheader('**Select the nutrients you want to focus on**')
 nutrient_focus = st.multiselect(' ',options=all_nutrients, default=None)
-#nutrient_focus  = nutrient_focus.split()
+nutrient_focus  = nutrient_focus.split()
 
 sum_frame_by_column(recommender_recipes,'score',nutrient_focus).sort_values('score',ascending=False)
 
@@ -99,24 +99,25 @@ recommender_recipes.loc[:,'score'] = round(recommender_recipes.loc[:,'score']/(r
 
 st.header("**Top food for that nutrient**")
 
-df_forplot.drop(['Column1','Category','Vegan_cat','portion','vegan_score','vegan_score_2',
+df_forplot.drop(['Category','Vegan_cat','portion','vegan_score','vegan_score_2',
                  'Food_category','count'],axis=1,inplace=True)
 
 
-df_top3 = df_forplot.sort_values(nutrient_focus[0],ascending=False).head(3)
-name_1 = df_top3.iloc[0,22]
+df_top3 = df_forplot.sort_values(nutrient_focus,ascending=False).head(3)
+name_1 = df_top3.iloc[2,22]
              
 df = df_forplot[df_forplot['Name']==name_1]
 df = df.T
 df.drop('Name',inplace=True)
 df = df.reset_index()
 df.rename(columns={'index':'Name',df.columns[1]:'Value'},inplace=True)
-fig = px.bar_polar(df, r='Value', theta=np.arange(1,360,17),
-                   color='Name', template="simple_white",
-                   color_discrete_sequence= color_list,hover_data={"Value":False, "Name":True})
+fig = px.bar_polar(df, r='Value', theta=np.arange(0,360,17),
+                   color='Name', template="simple_white",width=1000,height=1000,
+                   color_discrete_sequence= color_list,hover_data={"Value":True, "Name":True})
 
 fig.update_polars(angularaxis = dict(visible=False),radialaxis=dict(visible=False))
 fig.show()
+name_1
 
 ##############################################################################################    
 # Creating the recipe score 
