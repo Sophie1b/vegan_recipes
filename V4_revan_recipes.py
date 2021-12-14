@@ -124,8 +124,12 @@ df.drop('Name',inplace=True)
 df = df.reset_index()
 df.rename(columns={'index':'Name',df.columns[1]:'Value'},inplace=True)
 df
-fig = px.bar(df, x='Name', y='Value')
-st.fig
+
+
+st.bar_chart(df)
+
+
+#fig = px.bar(df, x='Name', y='Value')
 
 #fig.show()
 name_1
