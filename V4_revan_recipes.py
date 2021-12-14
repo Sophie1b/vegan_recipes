@@ -118,8 +118,8 @@ df_top3
 name_1
 
 chart_data = pd.DataFrame(
-     np.random.randn(50, 3),
-     columns=["a", "b", "c"])
+     np.random.randn(50, 1),
+     columns=["a"])
 
 st.bar_chart(chart_data)
 
