@@ -112,6 +112,7 @@ st.header("**Top food for that nutrient**")
 
 df_top3 = df_forplot.sort_values(nutrient_focus,ascending=False).head(3)
 name_1 = df_top3.iloc[1,22]
+name_1
 
 df = df_forplot[df_forplot['Name']==name_1]
 df = df.T
@@ -121,7 +122,6 @@ df.rename(columns={'index':'Name',df.columns[1]:'Value'},inplace=True)
 #df.rename(columns={df.columns[0]:'Value'},inplace=True)
 df
 
-name_1
 chart_data = pd.DataFrame(
      df.Value.unique().tolist(),
      columns=["Nutrients"])
