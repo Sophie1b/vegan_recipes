@@ -101,7 +101,6 @@ sum_frame_by_column(recommender_recipes,'score',nutrient_focus).sort_values('sco
 
 recommender_recipes.loc[:,'score'] = round(recommender_recipes.loc[:,'score']/(recommender_recipes.score.max())*100,2)
 
-recommender_recipes.head(5)
 ##############################################################################################    
 # spider plot with top 3 foods
 ##############################################################################################
@@ -113,24 +112,19 @@ st.header("**Top food for that nutrient**")
 
 df_top3 = df_forplot.sort_values(nutrient_focus,ascending=False).head(3)
 name_1 = df_top3.iloc[1,22]
-df_top3
-name_1
 
-
-
-
-df = df_forplot[df_forplot['Name']=='chia seed']
-df
+df = df_forplot[df_forplot['Name']==name_1]
 df = df.T
 df.drop('Name',inplace=True)
-#df = df.reset_index()
-#df.rename(columns={'index':'Name',df.columns[1]:'Value'},inplace=True)
-df.rename(columns={df.columns[0]:'Value'},inplace=True)
+df = df.reset_index()
+df.rename(columns={'index':'Name',df.columns[1]:'Value'},inplace=True)
+#df.rename(columns={df.columns[0]:'Value'},inplace=True)
 df
 
+name_1
 chart_data = pd.DataFrame(
      df.Value.unique().tolist(),
-     columns=["Name"])
+     columns=["Nutrients"])
 
 st.bar_chart(chart_data)
 
@@ -139,7 +133,6 @@ st.bar_chart(chart_data)
 #fig = px.bar(df, x='Name', y='Value')
 
 #fig.show()
-name_1
 # fig = px.bar_polar(df, r='Value', theta=np.arange(0,360,17))
                    #, color='Name')
      #              template="simple_white",width=1000,height=1000,
