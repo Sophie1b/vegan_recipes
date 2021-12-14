@@ -196,3 +196,5 @@ recipe_to_copy_nb = st.slider("What's the number of the recipe you would like ot
 recipe_to_copy_nb
 
 recommended = recommended_recipes(top_50,recipe_to_copy_nb,sparse_matrix,5, metric='cosine')
+
+recommended
