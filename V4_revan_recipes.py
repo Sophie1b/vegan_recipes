@@ -40,8 +40,10 @@ st.header("**Food nutrients**")
 Nutrients are often classified betweent the macro nutrients - fat, carbohydrates and protein that together constitute the kilocalories, and micro nutrients - vitamins, minerals, oligoelements, that are equaly important but in smaller quantities.""" 
 
 
-"""In the Western world, we are currently consuming too many kalories but at the same time not enough of the essential micronutrients - vitamins, minerals or oligoelements. There are mainly only traces of these element in the foods we eat, nevertheless they are essential for our wellbeing. 
-In this data analysis project, I would like to focus on the nutrients we should be eating more of. In a typical vegan diet, some nutrients might be lacking. B12 for instance is not part of any plant based foods and needs to be added to the diet through supplements.  
+"""In the Western world, we are currently consuming too many macronutrients but at the same time not enough of the essential micronutrients - vitamins, minerals or oligoelements. There are mainly only traces of these element in the foods we eat, nevertheless they are essential for our wellbeing. 
+In this data analysis project, I would like to focus on the nutrients we should be eating more of."""
+
+"""In a typical vegan diet, some nutrients might be lacking. B12 for instance is not part of any plant based foods and needs to be added to the diet through supplements.  
 Other nutrients, that might be low for vegan eaters can include calcium, iron, protein and zinc. Nevertheless these can still be found in plant based foods."""
 
 
