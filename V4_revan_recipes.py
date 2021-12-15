@@ -112,6 +112,8 @@ st.header("**Top food for that nutrient**")
 df_top3 = df_forplot.sort_values(nutrient_focus,ascending=False).head(3)
 name_1 = df_top3.iloc[1,22]
 name_1
+st.subheader(f"The values of the nutrients")
+df
 #col1, col2 = st.beta_columns(2)
 #with col1:
 df = df_forplot[df_forplot['Name']==name_1]
@@ -130,8 +132,7 @@ st.plotly_chart(fig)
 #st.bar_chart(chart_data)
 
 #with col2:
-st.subheader(f"The values of the nutrients")
-df
+
 
 #fig = px.bar(df, x='Name', y='Value')
 
