@@ -111,8 +111,8 @@ st.header("**Top food for that nutrient**")
 
 df_top3 = df_forplot.sort_values(nutrient_focus,ascending=False).head(3)
 name_1 = df_top3.iloc[1,22]
-st.subheader(f"name_1")
-st.header("****")
+name_1
+st.header("* * * *")
 
 col1, col2 = st.beta_columns(2)
 with col1:
@@ -132,8 +132,7 @@ with col1:
 
 with col2:
   st.subheader(f"The distribution of nutrients")
-  fig = px.bar(df, x = 'Name', y = 'Value',text= 'Name',
-            color= 'Name', color_discrete_sequence = color_list)
+  fig = px.bar(df, x = 'Name', y = 'Value', color= 'Name', color_discrete_sequence = color_list)
   st.plotly_chart(fig)
 
 
@@ -166,10 +165,9 @@ recommender_df = recommender_df.sort_values('score',ascending=False)
 # Selecting the type of food 
 ##############################################################################################
 st.header("**Types of recipes**")
-"""To narrow it down, select the type of food you want to cook""" 
 
 food_type = recommender_df.type.unique().tolist()
-st.subheader('**Would you like a recipe for a breakfast food, a main meal, a desert or a snack?**')
+st.subheader('**To narrow it down, select the type of food you want to cook. Would you like a recipe for a breakfast food, a meal, a desert or a snack?**')
 
 #food_type_focus = st.multiselect(' ',options=food_type, default=None)
 food_type_focus = st.selectbox(' ',food_type)
@@ -191,15 +189,13 @@ with col2:
 ##############################################################################################    
 # Recommender system
 ##############################################################################################
-st.header("**Let's try a recommender**")
-"""Bored of the above recipes? try these ones instead""" 
+st.header("**Bored of the above recipes? Here are some more recommendations"**")
 st.subheader("Using the slider, select the number corresponding to the recipe above for which you would like more recommendations.")
 top_50 = recommender_system_type.sort_values('score',ascending=False).head(50).reset_index()
-#top_50
+
 tfidf = TfidfVectorizer()
 sparse_matrix = tfidf.fit_transform(top_50['ingredients_clean_processed'])
-#sparse_matrix
-recipe_to_copy_nb = st.slider("What's the number of the recipe you would like ot see more of?", min_value=0, max_value=9, step=1)
+recipe_to_copy_nb = st.slider(" ", min_value=0, max_value=9, step=1)
 recipe_to_copy_nb
 
 recommended = recommended_recipes(top_50,recipe_to_copy_nb,sparse_matrix,5, metric='cosine')
