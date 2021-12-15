@@ -174,7 +174,7 @@ recommender_system_type = recommender_df[recommender_df['type']== food_type_focu
 col1, col2 = st.beta_columns(2)
 with col1:
     st.subheader('Recommended recipes:')
-    recommender_system_type.iloc[:10,1:5]
+    recommender_system_type.iloc[:10,1:4]
     
 with col2:
   st.subheader(f"The top foods in the recipes suggested to you")
