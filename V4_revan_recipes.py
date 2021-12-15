@@ -114,6 +114,12 @@ name_1 = df_top3.iloc[1,22]
 name_1
 col1, col2 = st.beta_columns(2)
 with col1:
+  df = df_forplot[df_forplot['Name']==name_1]
+  df = df.T
+  df.drop('Name',inplace=True)
+  df = df.reset_index()
+  df.rename(columns={'index':'Name',df.columns[1]:'Value'},inplace=True)
+  #df.rename(columns={df.columns[0]:'Value'},inplace=True)
   st.subheader(f"The distribution of nutrients")
   fig = px.bar(df, x = 'Name', y = 'Value', color= 'Name', color_discrete_sequence = color_list)
   st.plotly_chart(fig)
@@ -125,12 +131,6 @@ with col1:
 
 with col2:
   st.subheader(f"The values of the nutrients")
-  df = df_forplot[df_forplot['Name']==name_1]
-  df = df.T
-  df.drop('Name',inplace=True)
-  df = df.reset_index()
-  df.rename(columns={'index':'Name',df.columns[1]:'Value'},inplace=True)
-  #df.rename(columns={df.columns[0]:'Value'},inplace=True)
   df
 
 #fig = px.bar(df, x='Name', y='Value')
