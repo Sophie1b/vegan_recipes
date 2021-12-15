@@ -168,7 +168,7 @@ recommender_df = recommender_df.sort_values('score',ascending=False)
 st.header("**Types of recipes**")
 
 food_type = recommender_df.type.unique().tolist()
-st.subheader('**To narrow it down, select the type of food you want to cook. Would you like a recipe for a breakfast food, a meal, a desert or a snack?**')
+st.subheader('**To narrow it down, select the type of food you want to cook.**')
 
 #food_type_focus = st.multiselect(' ',options=food_type, default=None)
 food_type_focus = st.selectbox(' ',food_type)
