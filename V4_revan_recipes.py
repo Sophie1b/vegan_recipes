@@ -32,7 +32,7 @@ The vegan diet often focuses on what not to eat, through this recommender system
 """
 # Page styling
 title_image = Image.open("vegan_image.jpg")
-st.image(title_image) #, width=400)
+st.image(title_image, width=500)
 #st.markdown("***'Select the nutrients you want to focus on' ***")
 
 st.header("**Food nutrients**")
