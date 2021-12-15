@@ -36,7 +36,7 @@ st.image(title_image, width=500)
 #st.markdown("***'Select the nutrients you want to focus on' ***")
 
 st.header("**Food nutrients**")
-"""We all need nutrients to survive. Some are brought to us from the food we eat, some from the sun, some are transformed in our guts and bodies. The scientific community have currently labels over 150 nutrients, but some believe there is still a lot more  to be discovered - a black matter of trace nutrients in the foods we eat. 
+"""We all need nutrients to survive. Some are brought to us from the food we eat, some from the sun, some are transformed in our guts and bodies. The scientific community have currently labeled over 150 nutrients, but some believe there is still a lot more  to be discovered - a black matter of trace nutrients in the foods we eat. 
 Nutrients are often classified betweent the macro nutrients - fat, carbohydrates and protein that together constitute the kilocalories, and micro nutrients - vitamins, minerals, oligoelements, that are equaly important but in smaller quantities.""" 
 
 
@@ -112,7 +112,7 @@ st.header("**Top food for that nutrient**")
 
 
 df_top3 = df_forplot.sort_values(nutrient_focus,ascending=False).head(3)
-name_1 = df_top3.iloc[1,22]
+name_1 = df_top3.iloc[0,22]
 name_1
 #st.subheader(f"The values of the nutrients")
 
