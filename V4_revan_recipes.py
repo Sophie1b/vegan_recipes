@@ -70,7 +70,7 @@ def recommended_recipes(df,recipe_id, sparse_matrix, k,metric='cosine'):
         n = neighbour.item(i)
         neighbour_ids.append(n)
 
-    recommend_recipes = df.loc[neighbour_ids, 'name']
+    recommend_recipes = df.loc[neighbour_ids, 'name':'ingredients']
     return recommend_recipes
 
 ##############################################################################################
