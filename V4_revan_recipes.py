@@ -112,8 +112,6 @@ st.header("**Top food for that nutrient**")
 df_top3 = df_forplot.sort_values(nutrient_focus,ascending=False).head(3)
 name_1 = df_top3.iloc[1,22]
 name_1
-st.header("* * * *")
-
 col1, col2 = st.beta_columns(2)
 with col1:
   st.subheader(f"The values of the nutrients")
@@ -151,7 +149,7 @@ with col2:
 # Creating the recipe score 
 ##############################################################################################
 
-
+st.header("* * * *")
 recommender_df = recommender_recipes[recommender_recipes['score']>5]
 
 recommender_df = recommender_df.sort_values('score',ascending=False)
