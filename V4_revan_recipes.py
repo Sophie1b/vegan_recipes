@@ -32,7 +32,7 @@ The vegan diet often focuses on what not to eat, through this recommender system
 """
 # Page styling
 title_image = Image.open("vegan_image.jpg")
-st.image(title_image, width=400)
+st.image(title_image) #, width=400)
 #st.markdown("***'Select the nutrients you want to focus on' ***")
 
 st.header("**Food nutrients**")
@@ -128,6 +128,9 @@ chart_data = pd.DataFrame(
 
 st.bar_chart(chart_data)
 
+fig = px.bar(df, x = 'Name', y = 'Value',text= 'Name',
+            color= 'Name', color_discrete_sequence = color_list).update_traces(texttemplate='%{text:.2s} %')
+st.plotly_chart(fig)
 
 
 #fig = px.bar(df, x='Name', y='Value')
