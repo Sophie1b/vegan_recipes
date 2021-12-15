@@ -122,7 +122,7 @@ df.drop('Name',inplace=True)
 df = df.reset_index()
 df.rename(columns={'index':'Name',df.columns[1]:'Value'},inplace=True)
 #df.rename(columns={df.columns[0]:'Value'},inplace=True)
-st.dataframe(df)
+st.table(df)
 st.subheader(f"The distribution of nutrients")
 fig = px.bar(df, x = 'Name', y = 'Value', color= 'Name', color_discrete_sequence = color_list)
 st.plotly_chart(fig)
@@ -175,7 +175,7 @@ recommender_system_type = recommender_df[recommender_df['type']== food_type_focu
 col1, col2 = st.beta_columns(2)
 with col1:
   st.subheader('Recommended recipes:')
-  st.table(recommender_system_type.iloc[:10,1:4])
+  st.table(recommender_system_type.iloc[:6,1:4])
     
 with col2:
   st.subheader("The top foods in the recipes suggested to you")
@@ -194,7 +194,7 @@ top_50 = recommender_system_type.sort_values('score',ascending=False).head(50).r
 
 tfidf = TfidfVectorizer()
 sparse_matrix = tfidf.fit_transform(top_50['ingredients_clean_processed'])
-recipe_to_copy_nb = st.slider(" ", min_value=0, max_value=9, step=1)
+recipe_to_copy_nb = st.slider(" ", min_value=0, max_value=6, step=1)
 recipe_to_copy_nb
 
 recommended = recommended_recipes(top_50,recipe_to_copy_nb,sparse_matrix,5, metric='cosine')
