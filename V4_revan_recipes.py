@@ -189,7 +189,7 @@ with col2:
 ##############################################################################################    
 # Recommender system
 ##############################################################################################
-st.header("**Bored of the above recipes? Here are some more recommendations"**")
+st.header("**Bored of the above recipes? Here are some more recommendations**")
 st.subheader("Using the slider, select the number corresponding to the recipe above for which you would like more recommendations.")
 top_50 = recommender_system_type.sort_values('score',ascending=False).head(50).reset_index()
 
