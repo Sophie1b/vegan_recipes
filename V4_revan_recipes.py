@@ -201,4 +201,4 @@ recipe_to_copy_nb
 
 recommended = recommended_recipes(top_50,recipe_to_copy_nb,sparse_matrix,6, metric='cosine')
 
-recommended
+st.table(recommended)
