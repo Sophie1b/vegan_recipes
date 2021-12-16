@@ -127,7 +127,7 @@ df.rename(columns={'index':'Name',df.columns[1]:'Value'},inplace=True)
 st.dataframe(df)
 st.subheader(f"The distribution of nutrients")
 fig = px.bar(df, x = 'Name', y = 'Value', color= 'Name', color_discrete_sequence = color_list)
-st.plotly_chart(fig,width=1000)
+st.plotly_chart(fig)
 
 #chart_data = pd.DataFrame(
 #     df.Value.unique().tolist(),
@@ -196,7 +196,7 @@ top_50 = recommender_system_type.sort_values('score',ascending=False).head(50).r
 
 tfidf = TfidfVectorizer()
 sparse_matrix = tfidf.fit_transform(top_50['ingredients_clean_processed'])
-recipe_to_copy_nb = st.slider(" ", min_value=0, max_value=6, step=1)
+recipe_to_copy_nb = st.slider(" ", min_value=0, max_value=9, step=1)
 recipe_to_copy_nb
 
 recommended = recommended_recipes(top_50,recipe_to_copy_nb,sparse_matrix,6, metric='cosine')
