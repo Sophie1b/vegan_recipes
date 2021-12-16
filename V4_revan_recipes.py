@@ -127,7 +127,7 @@ df.rename(columns={'index':'Name',df.columns[1]:'Value'},inplace=True)
 st.dataframe(df)
 st.subheader(f"The distribution of nutrients")
 fig = px.bar(df, x = 'Name', y = 'Value', color= 'Name', color_discrete_sequence = color_list)
-st.plotly_chart(fig)
+st.plotly_chart(fig,width=700)
 
 #chart_data = pd.DataFrame(
 #     df.Value.unique().tolist(),
