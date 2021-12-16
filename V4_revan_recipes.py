@@ -44,7 +44,7 @@ Nutrients are often classified betweent the macro nutrients - fat, carbohydrates
 In this data analysis project, I would like to focus on the nutrients we should be eating more of."""
 
 """In a typical vegan diet, some nutrients might be lacking. B12 for instance is not part of any plant based foods and needs to be added to the diet through supplements.  
-Other nutrients, that might be low for vegan eaters can include calcium, iron, protein and zinc. Nevertheless these can still be found in plant based foods."""
+Other nutrients, that might be low for vegan eaters can include calcium, iron, protein and zinc. Nevertheless these can still be found in plant based foods. Check out the recipes below and stock up on the essential nutrients!"""
 
 
 ##############################################################################################
