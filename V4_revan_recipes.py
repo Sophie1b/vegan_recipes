@@ -112,13 +112,13 @@ st.header("**Top food for that nutrient**")
 
 
 df_top3 = df_forplot.sort_values(nutrient_focus,ascending=False).head(3)
-name_1 = df_top3.iloc[0,22]
+name_1 = df_top3.iloc[:10,22]
 name_1
 #st.subheader(f"The values of the nutrients")
 
 #col1, col2 = st.beta_columns(2)
 #with col1:
-df = df_forplot[df_forplot['Name']==name_1]
+df = df_forplot[df_forplot['Name']==name_1[0]]
 df = df.T
 df.drop('Name',inplace=True)
 df = df.reset_index()
